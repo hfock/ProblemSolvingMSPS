@@ -43,7 +43,7 @@ class Solution:
             print(self.schedule)
 
             print("randomizing res_used_by_act")
-            self.__generate_res_used_by_act(self.res_used_by_act)
+            self.__generate_res_used_by_act(self.res_used_by_act, randomizedActivities)
             print(self.res_used_by_act)
 
             if self.check_for_hard_constraints():
@@ -62,9 +62,10 @@ class Solution:
         currently_used_acts = [0]
 
         t = 0
-        for act in range(self.instance.nActs-1):
+        for act in range(self.instance.nActs - 1):
             # add at least 1, but possibly more, depending on how long to go and how many activites were used
-            res_schedule, res_currently_used_acts, used_act = self.__add_activity_randomly(currently_used_acts, schedule, t)
+            res_schedule, res_currently_used_acts, used_act = self.__add_activity_randomly(currently_used_acts,
+                                                                                           schedule, t)
 
             schedule = res_schedule
             currently_used_acts = res_currently_used_acts
@@ -79,26 +80,28 @@ class Solution:
             predecessors = self.instance.predecessors_by_activity[act]
             if all(x in currently_used_acts for x in predecessors) and act not in currently_used_acts:
                 # are all predecessors done yet?
-                if not [schedule[pred_act] + self.instance.dur[pred_act] for pred_act in predecessors if schedule[pred_act] + self.instance.dur[pred_act] > t]:
+                if not [schedule[pred_act] + self.instance.dur[pred_act] for pred_act in predecessors if
+                        schedule[pred_act] + self.instance.dur[pred_act] > t]:
                     available_acts.append(act)
 
         return list(set(available_acts))
 
     def __randomize_schedule(self, schedule):
-        new_schedule = deepcopy(schedule)
         while True:
+            new_schedule = deepcopy(schedule)
             changed_activities = []
             for i in range(3):
                 random_activity = randint(0, self.instance.nActs - 1)
-                random_activity_time = schedule[random_activity]
+                random_activity_time = new_schedule[random_activity]
                 # change the time within 30%
-                t = randint(int(random_activity_time * 0.7), int(random_activity_time * 1.2))
+                t = randint(int(random_activity_time * 0.95), int(random_activity_time * 1.05))
                 new_schedule[random_activity] = t
                 changed_activities.append(random_activity)
 
-            if self.__check_precedence_relations(new_schedule):
+            if self.__check_precedence_relations(new_schedule) \
+                    and new_schedule[self.instance.nActs - 1] <= self.instance.maxt \
+                    and new_schedule[self.instance.nActs - 1] >= self.instance.mint:
                 return new_schedule, changed_activities
-
 
     def __add_activity_randomly(self, currently_used_acts, schedule, t):
         available_activities = self.__get_possible_activities(currently_used_acts, schedule, t)
@@ -124,18 +127,21 @@ class Solution:
             operation = randint(1, 10)
             # ignore the first and last activity
             # delete random resource
-            while True:
+
+            for i in range(5):
+                if len(res_used_by_act_origin[activity]) == 0:
+                    break
                 random_resource = randint(0, len(res_used_by_act_origin[activity]) - 1)
                 if operation < 7:
                     del res_used_by_act_origin[activity][random_resource]
-                else:
+                elif operation < 9:
                     f = 0
                     while (random_resource not in self.instance.useful_res[activity] or
                            random_resource in self.res_used_by_act[activity]):
 
                         if f == 50:
                             print("add random resource aborted..")
-                            return
+                            break
 
                         random_resource = randint(0, self.instance.nResources - 1)
                         f += 1
@@ -143,13 +149,13 @@ class Solution:
                     res_used_by_act_origin[activity].append(random_resource)
                 self.res_used_by_act = res_used_by_act_origin
 
-                if not self.check_for_hard_constraints():
-                    self.res_used_by_act = deepcopy(old_res_used_by_act_origin)
-                    res_used_by_act_origin = deepcopy(old_res_used_by_act_origin)
-                    continue
+            if not self.check_for_hard_constraints():
+                self.res_used_by_act = deepcopy(old_res_used_by_act_origin)
+                res_used_by_act_origin = deepcopy(old_res_used_by_act_origin)
+                continue
 
-                print("deleted random resource...")
-                return
+        print("deleted random resource...")
+        return
 
     def check_for_hard_constraints(self):
         return self.__check_schedule_for_precedence_relation() and \
