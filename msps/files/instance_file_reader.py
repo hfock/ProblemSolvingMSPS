@@ -21,7 +21,7 @@ class InstanceFileReader:
 
     @staticmethod
     def read_file_to_instance(file):
-        curr_instance = Instance()
+        curr_instance = Instance(file.name)
         curr_text = ""
 
         for line in file.readlines():

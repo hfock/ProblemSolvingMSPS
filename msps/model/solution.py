@@ -1,3 +1,4 @@
+import time
 from copy import deepcopy
 from random import randint
 
@@ -19,33 +20,25 @@ class Solution:
 
     def __generate_solution(self, origin=None):
         if origin is not None:
-            print("generating solution in neighbourhood")
             self.schedule = origin.schedule
             self.res_used_by_act = origin.res_used_by_act
         else:
             while True:
-                print("generating an initial solution")
                 initial_schedule = self.__generate_initial_schedule()
                 if self.__check_precedence_relations(initial_schedule):
                     self.schedule = initial_schedule
-                    print("precedence relation is kept")
                     if self.check_for_hard_constraints():
-                        print("hard constraints are fine")
                         break
-                    print("hard constraints fail")
                 else:
                     continue
+
         old_schedule = deepcopy(self.schedule)
         while True:
             self.schedule = old_schedule
-            print("randomizing schedule..")
-            print(self.schedule)
+            # randomize schedule
             self.schedule, randomizedActivities = self.__randomize_schedule(self.schedule)
-            print(self.schedule)
-
-            print("randomizing res_used_by_act")
+            # randomize resources to work with schedule
             self.__generate_res_used_by_act(self.res_used_by_act, randomizedActivities)
-            print(self.res_used_by_act)
 
             if self.check_for_hard_constraints():
                 break
@@ -91,10 +84,11 @@ class Solution:
         while True:
             new_schedule = deepcopy(schedule)
             changed_activities = []
+            # change 3 activities
             for i in range(3):
                 random_activity = randint(0, self.instance.nActs - 1)
                 random_activity_time = new_schedule[random_activity]
-                # change the time within 30%
+                # change the time within 5%
                 t = randint(int(random_activity_time * 0.95), int(random_activity_time * 1.05))
                 new_schedule[random_activity] = t
                 changed_activities.append(random_activity)
@@ -124,11 +118,8 @@ class Solution:
         res_used_by_act_origin = deepcopy(res_used_by_act_origin)
 
         for activity in activities_to_work_on:
-            operation = randint(1, 10)
-            # ignore the first and last activity
-            # delete random resource
-
             for i in range(5):
+                operation = randint(1, 10)
                 if len(res_used_by_act_origin[activity]) == 0:
                     break
                 random_resource = randint(0, len(res_used_by_act_origin[activity]) - 1)
@@ -140,7 +131,6 @@ class Solution:
                            random_resource in self.res_used_by_act[activity]):
 
                         if f == 50:
-                            print("add random resource aborted..")
                             break
 
                         random_resource = randint(0, self.instance.nResources - 1)
@@ -154,7 +144,6 @@ class Solution:
                 res_used_by_act_origin = deepcopy(old_res_used_by_act_origin)
                 continue
 
-        print("deleted random resource...")
         return
 
     def check_for_hard_constraints(self):
@@ -166,15 +155,12 @@ class Solution:
     def __check_schedule_for_precedence_relation(self):
         # constraint forall(i in PREC)((schedule[pred[i]] + dur[pred[i]]) <= schedule[succ[i]]);
         isValid = self.__check_precedence_relations(self.schedule)
-        if not isValid:
-            print("precedence relation not fulfilled")
         return isValid
 
     def __check_res_used_by_act_for_subset_of_useful_res(self):
         for act in range(self.instance.nActs):
             # all(x in currently_used_acts for x in predecessors)
             if not all(x in self.instance.useful_res[act] for x in self.res_used_by_act[act]):
-                print("res_used_by_act not a subset of useful_res")
                 return False
         return True
 
@@ -184,7 +170,6 @@ class Solution:
     def __check_if_skill_requirement_is_met(self):
         for activity in range(self.instance.nActs):
             if not self.__check_if_resources_fulfill_skills(activity):
-                print("skill requirement not met")
                 return False
         return True
 
@@ -212,7 +197,6 @@ class Solution:
                 if self.schedule[act1] <= self.schedule[act2] and \
                         (self.schedule[act2] < (self.schedule[act1] + self.instance.dur[act1])):
                     if set(self.res_used_by_act[act1]).intersection(set(self.res_used_by_act[act2])):
-                        print("resources are overlapping")
                         return False
 
         return True

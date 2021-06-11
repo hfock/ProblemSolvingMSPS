@@ -1,6 +1,7 @@
 class Instance:
 
-    def __init__(self):
+    def __init__(self, file_name):
+        self.filename = file_name;
         self.mint = None
         self.maxt = None
         self.nActs = None
@@ -27,8 +28,6 @@ class Instance:
                     predecessors.append(self.pred[prec])
 
             self.predecessors_by_activity[act] = predecessors
-
-
 
     def __str__(self) -> str:
         string = "{\n"
