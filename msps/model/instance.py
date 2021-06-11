@@ -17,6 +17,18 @@ class Instance:
         self.unsucc = None
         self.useful_res = None
         self.potential_act = None
+        self.predecessors_by_activity = {}
+
+    def set_predecessors_by_activity(self):
+        for act in range(self.nActs):
+            predecessors = []
+            for prec in range(self.nPrecs):
+                if self.succ[prec] == act:
+                    predecessors.append(self.pred[prec])
+
+            self.predecessors_by_activity[act] = predecessors
+
+
 
     def __str__(self) -> str:
         string = "{\n"

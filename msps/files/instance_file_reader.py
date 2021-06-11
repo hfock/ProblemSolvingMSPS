@@ -34,6 +34,7 @@ class InstanceFileReader:
                 InstanceFileReader.__read_text_to_instance(curr_text, curr_instance)
                 curr_text = ""
 
+        curr_instance.set_predecessors_by_activity()
         return curr_instance
 
     @staticmethod
@@ -55,30 +56,30 @@ class InstanceFileReader:
         elif text.startswith("nunrels"):
             curr_instance.nUnrels = InstanceFileReader.__read_line_to_int(text)
         elif text.startswith("pred"):
-            curr_instance.pred = InstanceFileReader.__read_line_to_int_array(text)
+            curr_instance.pred = InstanceFileReader.__read_line_to_int_array(text, minus=1)
         elif text.startswith("dur"):
             curr_instance.dur = InstanceFileReader.__read_line_to_int_array(text)
         elif text.startswith("succ"):
-            curr_instance.succ = InstanceFileReader.__read_line_to_int_array(text)
+            curr_instance.succ = InstanceFileReader.__read_line_to_int_array(text, minus=1)
         elif text.startswith("unpred"):
-            curr_instance.unpred = InstanceFileReader.__read_line_to_int_array(text)
+            curr_instance.unpred = InstanceFileReader.__read_line_to_int_array(text, minus=1)
         elif text.startswith("unsucc"):
-            curr_instance.unsucc = InstanceFileReader.__read_line_to_int_array(text)
+            curr_instance.unsucc = InstanceFileReader.__read_line_to_int_array(text, minus=1)
         elif text.startswith("sreq"):
             curr_instance.sreq = InstanceFileReader.__read_line_to_2_dim_int_array(text)
         elif text.startswith("mastery"):
             curr_instance.mastery = InstanceFileReader.__read_line_to_2_dim_bool_array(text)
         elif text.startswith("useful_res"):
-            curr_instance.useful_res = InstanceFileReader.__read_line_to_array_of_sets(text)
+            curr_instance.useful_res = InstanceFileReader.__read_line_to_array_of_sets(text, minus=1)
         elif text.startswith("potential_act"):
-            curr_instance.potential_act = InstanceFileReader.__read_line_to_array_of_sets(text)
+            curr_instance.potential_act = InstanceFileReader.__read_line_to_array_of_sets(text, minus=1)
 
     @staticmethod
-    def __read_line_to_int(text):
-        return int(InstanceFileReader.__read_value_from_line(text))
+    def __read_line_to_int(text, minus=0):
+        return int(InstanceFileReader.__read_value_from_line(text)) - minus
 
     @staticmethod
-    def __read_line_to_int_array(text):
+    def __read_line_to_int_array(text, minus=0):
         # get only brackets and lists
         array_line = InstanceFileReader.__read_value_from_line(text)
 
@@ -86,7 +87,7 @@ class InstanceFileReader:
         array_line = array_line[1:-1]
 
         # making the values commas
-        return [int(f) for f in array_line.split(",")]
+        return [int(f) - minus for f in array_line.split(",")]
 
     @staticmethod
     def __read_line_to_2_dim_array(text):
@@ -96,15 +97,15 @@ class InstanceFileReader:
         return [[val.strip() for val in row.strip().split(",") if val.strip() != ''] for row in sets_list]
 
     @staticmethod
-    def __read_line_to_2_dim_int_array(text):
-        return [[int(v) for v in sets] for sets in InstanceFileReader.__read_line_to_2_dim_array(text)]
+    def __read_line_to_2_dim_int_array(text, minus=0):
+        return [[int(v) - minus for v in sets] for sets in InstanceFileReader.__read_line_to_2_dim_array(text)]
 
     @staticmethod
     def __read_line_to_2_dim_bool_array(text):
         return [[v.lower() == 'true' for v in sets] for sets in InstanceFileReader.__read_line_to_2_dim_array(text)]
 
     @staticmethod
-    def __read_line_to_array_of_sets(text):
+    def __read_line_to_array_of_sets(text, minus=0):
         # get rid of the outer array brackets
         sets = InstanceFileReader.__read_value_from_line(text).strip()[1:-1]
         # split into actual sets by bracket
@@ -121,7 +122,7 @@ class InstanceFileReader:
             for v in curr_set:
                 if v == '':
                     continue
-                set_build.append(int(v))
+                set_build.append(int(v) - minus)
             ret_set.append(set_build)
 
         return ret_set
