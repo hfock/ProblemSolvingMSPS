@@ -30,7 +30,7 @@ if __name__ == '__main__':
         for inputParam in inputParams:
             solutions = []
             with open(output_filename, "a+") as file:
-                file.writelines("\n\nParameter we used: \n"
+                file.writelines("Parameter we used: \n"
                 "\tt_stop: " + str(inputParam.t_stop) + "\n"
                 "\tt_initial: " + str(inputParam.t_initial) + "\n"
                 "\ttermination condition: " + str(inputParam.termination_condition) + "\n"
@@ -74,12 +74,12 @@ if __name__ == '__main__':
                                     "\tschedule: " + str(instance_solution.schedule) + "\n")
 
             bestSolution = OutputSolution()
-            resultsT = []
-            allTimes = []
+            solution_results_t = []
+            solution_times = []
 
             for solution in solutions:
-                resultsT.append(solution.evaluated_t)
-                allTimes.append(solution.runtime)
+                solution_results_t.append(solution.evaluated_t)
+                solution_times.append(solution.runtime)
                 if bestSolution.evaluated_t is None:
                     bestSolution = solution
                     continue
@@ -89,18 +89,21 @@ if __name__ == '__main__':
 
             with open(output_filename, "a+") as file:
                 file.writelines("\n\n Statistical evaluation of the file" + str(instance.filename) + "\n\n"
-                                "iterations: " + str(countOfIterations) + "\n\n"
-                                "t_best " + str(bestSolution.evaluated_t) + "\n "
-                                "runtime_of_best_iteration: " + str(bestSolution.runtime) + "\n "
-                                "instance min_t: " + str(instance.mint) + "\n"
-                                "instance max_t: " + str(instance.maxt) + "\n"
-                                "iterations: " + str(bestSolution.iterationNumber) + "\n"
-                                "total time: " + str(sum(resultsT)) + "\n\n"
+                                "iterations: " + str(countOfIterations) + "\n"
+                                "total time seconds: " + str(sum(solution_results_t)) + "\n"
+                                "total time minutes: " + str(sum(solution_results_t) / 60) + "\n"
+                                "total time hours: " + str(sum(solution_results_t) / 60 / 60) + "\n"
+                                "instance_min_t: " + str(instance.mint) + "\n"
+                                "instance_max_t: " + str(instance.maxt) + "\n\n"
+                                                                          
+                                "t_best " + str(bestSolution.evaluated_t) + "\n"
+                                "runtime_of_best_iteration: " + str(bestSolution.runtime) + "\n"
+                                "iteration_best_solution: " + str(bestSolution.iterationNumber) + "\n\n"
                                                                                           
-                                "avg_t " + str(statistics.mean(resultsT)) + "\n "
-                                "avg_runtime " + str(statistics.mean(allTimes)) + "\n"
-                                "std_t:  " + str(statistics.stdev(resultsT)) + "\n"
-                                "std_runtime: " + str(statistics.stdev(allTimes)) + "\n\n"
-                                "######################################################################################\n\n"
+                                "avg_t " + str(statistics.mean(solution_results_t)) + "\n"
+                                "std_t:  " + str(statistics.stdev(solution_results_t)) + "\n\n"
+                                "avg_runtime " + str(statistics.mean(solution_times)) + "\n"
+                                "std_runtime: " + str(statistics.stdev(solution_times)) + "\n\n"
+                                "#################################################################################\n\n"
                                 )
 
