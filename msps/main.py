@@ -7,4 +7,3 @@ if __name__ == '__main__':
         solution = Solution(instance)
         print(solution.schedule)
         print(solution.res_used_by_act)
-        break

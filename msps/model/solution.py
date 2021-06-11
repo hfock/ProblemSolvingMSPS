@@ -35,8 +35,9 @@ class Solution:
                     print("hard constraints fail")
                 else:
                     continue
-
+        old_schedule = deepcopy(self.schedule)
         while True:
+            self.schedule = old_schedule
             print("randomizing schedule..")
             print(self.schedule)
             self.schedule, randomizedActivities = self.__randomize_schedule(self.schedule)
@@ -99,8 +100,7 @@ class Solution:
                 changed_activities.append(random_activity)
 
             if self.__check_precedence_relations(new_schedule) \
-                    and new_schedule[self.instance.nActs - 1] <= self.instance.maxt \
-                    and new_schedule[self.instance.nActs - 1] >= self.instance.mint:
+                    and self.instance.maxt >= new_schedule[self.instance.nActs - 1] >= self.instance.mint:
                 return new_schedule, changed_activities
 
     def __add_activity_randomly(self, currently_used_acts, schedule, t):
