@@ -9,7 +9,7 @@ from msps.optimizer.simulated_annealing import SimulatedAnnealing
 
 if __name__ == '__main__':
     instances = InstanceFileReader.read_files_in_folder("../instances")
-    output_filename = "solution_" + datetime.today().strftime('%d-%m-%Y_%H:%M:%S') + ".log"
+    output_filename = "solution_" + datetime.today().strftime('%d-%m-%Y_%H-%M-%S') + ".log"
 
     countOfIterations = 5
     inputParams = [
