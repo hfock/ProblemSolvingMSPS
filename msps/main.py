@@ -9,7 +9,8 @@ from msps.optimizer.simulated_annealing import SimulatedAnnealing
 
 if __name__ == '__main__':
     instances = InstanceFileReader.read_files_in_folder("../instances")
-    output_filename = "solution_" + datetime.today().strftime('%d-%m-%Y_%H:%M:%S') + ".log"
+    output_filename = "../generated_solutions/solution_" + datetime.today().strftime('%d-%m-%Y_%H:%M:%S') + ".log"
+    output_filename_csv = "../generated_solutions/solution_" + datetime.today().strftime('%d-%m-%Y_%H:%M:%S') + ".csv"
 
     countOfIterations = 5
     inputParams = [
@@ -20,6 +21,12 @@ if __name__ == '__main__':
         InputParam(0.1, 1, 400, 0.05),
         InputParam(0.1, 0.5, 400, 0.05),
     ]
+
+    with open(output_filename_csv, "w") as file:
+        file.writelines("filename|"
+                        "t_stop|t_initial|termination_condition|t_value_change|"
+                        "min_t|max_t|"
+                        "evaluated_t|runtime\n")
 
     for instance in instances:
         # mint, maxt, our_t, runtime, schedule, instance file name,
@@ -72,6 +79,20 @@ if __name__ == '__main__':
                                     "\tour best solution t: " + str(instance_solution.evaluate()) + "\n"
                                     "\truntime: " + str(runtime) + " seconds \n"
                                     "\tschedule: " + str(instance_solution.schedule) + "\n")
+
+                csv_values = "{filename}|{t_stop}|{t_initial}|{termination_condition}|{t_value_change}|{min_t}|{" \
+                             "max_t}|{evaluated_t}|{runtime} "
+                csv_values = csv_values.format(filename=instance.filename,
+                                               t_stop=inputParam.t_stop, t_initial=inputParam.t_initial,
+                                               termination_condition=inputParam.termination_condition,
+                                               t_value_change=inputParam.t_value_change,
+                                               min_t=instance.mint, max_t=instance.maxt,
+                                               evaluated_t=outputSolution.evaluated_t,
+                                               runtime=outputSolution.runtime)
+                print(csv_values)
+
+                with open(output_filename_csv, "a+") as file:
+                    file.writelines(csv_values)
 
             bestSolution = OutputSolution()
             solution_results_t = []
