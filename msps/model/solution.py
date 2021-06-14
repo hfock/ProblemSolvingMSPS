@@ -164,14 +164,93 @@ class Solution:
                 return False
         return True
 
-    # constraint forall(a in ACT, s in SKILL)(
-    #     sum(r in res_used_by_act[a])(mastery[r,s])>= sreq[a, s]);
-    # TODO: wrongly implemented
     def __check_if_skill_requirement_is_met(self):
         for activity in range(self.instance.nActs):
+            # old constraint
             if not self.__check_if_resources_fulfill_skills(activity):
                 return False
+
+            # check if enough people are working on it
+            if not self.__check_if_enough_resources_are_used(activity):
+                return False
+
+            if not self.__check_if_needed_skills_are_met(activity):
+                return False
+
         return True
+
+    def __check_if_needed_skills_are_met(self, activity):
+        resources = self.res_used_by_act[activity]
+        resource_values = {}
+
+        # get resources for each amount of skills
+        for resource in resources:
+            value = 0
+            for skill in range(self.instance.nSkills):
+                if self.instance.mastery[resource][skill]:
+                    value += 1
+
+            if value not in resource_values:
+                resource_values[value] = []
+
+            resource_values[value].append(resource)
+
+        left_skill_requirements = deepcopy(self.instance.sreq[activity])
+
+        # do the obvious ones
+        if 1 in resource_values:
+            for resource in resource_values[1]:
+                for skill in range(self.instance.nSkills):
+                    if self.instance.mastery[resource][skill]:
+                        left_skill_requirements[skill] -= 1
+
+            # no longer relevant
+            del resource_values[1]
+
+        # now do the rest
+        return self.__recursive_trying_of_skill_paths(resource_values, left_skill_requirements)
+
+    def __recursive_trying_of_skill_paths(self, left_resources, skill_left):
+        if self.__check_if_skill_left_is_empty(skill_left):
+            return True
+
+        if self.__check_if_left_resources_is_empty(left_resources):
+            return False
+
+        for skill_value in left_resources.keys():
+            for resource in left_resources[skill_value]:
+                for skill in range(self.instance.nSkills):
+                    if self.instance.mastery[resource][skill]:
+                        temp_left_resources = deepcopy(left_resources)
+                        temp_left_resources[skill_value].remove(resource)
+
+                        temp_skill_left = deepcopy(skill_left)
+                        temp_skill_left[skill] -= 1
+
+                        if self.__recursive_trying_of_skill_paths(temp_left_resources, temp_skill_left):
+                            return True
+
+        return False
+
+    def __check_if_skill_left_is_empty(self, skill_left):
+        for skill in range(self.instance.nSkills):
+            if skill_left[skill] > 0:
+                return False
+
+        return True
+
+    def __check_if_left_resources_is_empty(self, left_resources):
+        for value in left_resources.keys():
+            if len(left_resources[value]) > 0:
+                return False
+
+        return True
+
+    def __check_if_enough_resources_are_used(self, activity):
+        needed_skills = 0
+        for skill in range(self.instance.nSkills):
+            needed_skills += self.instance.sreq[activity][skill]
+        return len(self.res_used_by_act[activity]) >= needed_skills
 
     def __check_if_resources_fulfill_skills(self, activity):
         for skill in range(self.instance.nSkills):
