@@ -4,7 +4,10 @@ from random import randint
 
 
 class Solution:
-    MAX_TRIES = 500
+    RES_OPS = 3
+    SCHED_OPS = 2
+
+    SIMPLE_CONSTRAINT_FLAG = False
 
     # expects origin to be a solution for the same instance
     def __init__(self, instance_definition, origin=None):
@@ -27,7 +30,7 @@ class Solution:
                 initial_schedule = self.__generate_initial_schedule()
                 if self.__check_precedence_relations(initial_schedule):
                     self.schedule = initial_schedule
-                    if self.check_for_hard_constraints():
+                    if self.check_for_hard_constraints(self.SIMPLE_CONSTRAINT_FLAG):
                         break
                 else:
                     continue
@@ -40,7 +43,7 @@ class Solution:
             # randomize resources to work with schedule
             self.__generate_res_used_by_act(self.res_used_by_act, randomizedActivities)
 
-            if self.check_for_hard_constraints():
+            if self.check_for_hard_constraints(self.SIMPLE_CONSTRAINT_FLAG):
                 break
 
     def __check_precedence_relations(self, schedule):
@@ -85,7 +88,7 @@ class Solution:
             new_schedule = deepcopy(schedule)
             changed_activities = []
             # change 3 activities
-            for i in range(3):
+            for i in range(self.SCHED_OPS):
                 random_activity = randint(0, self.instance.nActs - 1)
                 random_activity_time = new_schedule[random_activity]
                 # change the time within 5%
@@ -118,7 +121,7 @@ class Solution:
         res_used_by_act_origin = deepcopy(res_used_by_act_origin)
 
         for activity in activities_to_work_on:
-            for i in range(5):
+            for i in range(self.RES_OPS):
                 operation = randint(1, 10)
                 if len(res_used_by_act_origin[activity]) == 0:
                     break
@@ -139,17 +142,17 @@ class Solution:
                     res_used_by_act_origin[activity].append(random_resource)
                 self.res_used_by_act = res_used_by_act_origin
 
-            if not self.check_for_hard_constraints():
+            if not self.check_for_hard_constraints(self.SIMPLE_CONSTRAINT_FLAG):
                 self.res_used_by_act = deepcopy(old_res_used_by_act_origin)
                 res_used_by_act_origin = deepcopy(old_res_used_by_act_origin)
                 continue
 
         return
 
-    def check_for_hard_constraints(self):
+    def check_for_hard_constraints(self, simpleConstraint=False):
         return self.__check_schedule_for_precedence_relation() and \
                self.__check_res_used_by_act_for_subset_of_useful_res() and \
-               self.__check_if_skill_requirement_is_met() and \
+               self.__check_if_skill_requirement_is_met(simpleConstraint) and \
                self.__check_if_no_resource_is_overlapping()
 
     def __check_schedule_for_precedence_relation(self):
@@ -164,11 +167,14 @@ class Solution:
                 return False
         return True
 
-    def __check_if_skill_requirement_is_met(self):
+    def __check_if_skill_requirement_is_met(self, simpleConstraint=False):
         for activity in range(self.instance.nActs):
             # old constraint
             if not self.__check_if_resources_fulfill_skills(activity):
                 return False
+
+            if simpleConstraint:
+                continue
 
             # check if enough people are working on it
             if not self.__check_if_enough_resources_are_used(activity):
