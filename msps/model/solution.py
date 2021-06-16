@@ -7,7 +7,7 @@ class Solution:
     RES_OPS = 3
     SCHED_OPS = 2
 
-    SIMPLE_CONSTRAINT_FLAG = False
+    SIMPLE_CONSTRAINT_FLAG = True
 
     # expects origin to be a solution for the same instance
     def __init__(self, instance_definition, origin=None):

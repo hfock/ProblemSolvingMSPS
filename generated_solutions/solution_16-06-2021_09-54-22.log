@@ -1,0 +1,4160 @@
+These are the results of the instance: ../instances/inst_set1a_sf0.5_nc1.5_n20_m10_00.dzn
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 73
+	runtime: 9.680033683776855 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 2: 0, 8: 9, 4: 8, 5: 17, 6: 10, 12: 11, 10: 17, 14: 24, 11: 13, 15: 34, 7: 44, 20: 65, 9: 54, 13: 57, 16: 51, 18: 60, 17: 58, 19: 64, 21: 73}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 81
+	runtime: 11.220965385437012 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 8: 9, 1: 0, 10: 17, 4: 8, 6: 10, 12: 11, 5: 13, 14: 24, 7: 24, 11: 34, 9: 54, 20: 47, 15: 44, 18: 57, 16: 54, 13: 66, 17: 67, 19: 72, 21: 81}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 66
+	runtime: 9.289997100830078 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 4: 9, 6: 11, 1: 0, 11: 12, 7: 12, 9: 24, 5: 23, 8: 22, 10: 31, 12: 27, 20: 42, 13: 30, 15: 30, 17: 40, 14: 40, 16: 50, 19: 57, 18: 55, 21: 66}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 82
+	runtime: 9.558037281036377 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 3: 0, 8: 9, 10: 17, 20: 25, 4: 8, 14: 24, 6: 10, 16: 34, 11: 35, 7: 40, 9: 51, 12: 51, 15: 55, 13: 54, 18: 65, 17: 56, 5: 66, 19: 73, 21: 82}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 79
+	runtime: 9.149990797042847 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 2: 0, 8: 9, 4: 9, 5: 17, 10: 17, 14: 24, 6: 11, 20: 24, 12: 33, 15: 35, 11: 45, 7: 46, 18: 55, 9: 57, 16: 57, 13: 63, 17: 65, 19: 70, 21: 79}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.5_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 381
+total time minutes: 6.35
+total time hours: 0.10583333333333332
+instance_min_t: 48
+instance_max_t: 132
+
+t_best 66
+runtime_of_best_iteration: 9.289997100830078
+iteration_best_solution: 2
+
+avg_t 76.2
+std_t:  6.685805860178712
+
+avg_runtime 9.779804849624634
+std_runtime: 0.8325647424680973
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 67
+	runtime: 21.010310411453247 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 1: 0, 8: 9, 10: 17, 4: 8, 6: 10, 7: 17, 20: 27, 14: 24, 12: 34, 16: 37, 11: 34, 15: 48, 18: 58, 9: 44, 13: 47, 5: 43, 17: 50, 19: 57, 21: 67}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 71
+	runtime: 17.650964736938477 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 4: 8, 3: 10, 6: 10, 11: 11, 8: 19, 12: 21, 7: 23, 15: 33, 10: 27, 20: 36, 18: 44, 5: 44, 14: 43, 9: 53, 16: 54, 13: 56, 17: 57, 19: 62, 21: 71}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 72
+	runtime: 19.547717094421387 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 2: 0, 4: 9, 6: 11, 7: 12, 12: 12, 15: 14, 11: 24, 9: 25, 18: 34, 8: 24, 10: 32, 14: 39, 13: 43, 17: 45, 16: 50, 20: 50, 5: 57, 19: 63, 21: 72}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 83
+	runtime: 21.4626624584198 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 2: 0, 4: 9, 8: 8, 10: 16, 5: 12, 6: 11, 14: 23, 16: 34, 12: 18, 11: 33, 20: 43, 15: 44, 7: 54, 18: 54, 9: 64, 13: 67, 17: 68, 19: 74, 21: 83}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 70
+	runtime: 23.762998819351196 seconds 
+	schedule: {0: 0, 2: 0, 8: 8, 3: 11, 4: 8, 5: 20, 10: 16, 6: 10, 7: 26, 14: 23, 16: 37, 12: 36, 11: 38, 9: 48, 13: 52, 15: 51, 1: 37, 17: 53, 19: 59, 20: 62, 18: 61, 21: 70}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.5_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 363
+total time minutes: 6.05
+total time hours: 0.10083333333333333
+instance_min_t: 48
+instance_max_t: 132
+
+t_best 67
+runtime_of_best_iteration: 21.010310411453247
+iteration_best_solution: 0
+
+avg_t 72.6
+std_t:  6.107372593840989
+
+avg_runtime 20.686930704116822
+std_runtime: 2.273951749801047
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 68
+	runtime: 13.740965604782104 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 8: 8, 10: 16, 1: 0, 14: 23, 4: 9, 5: 11, 16: 33, 20: 24, 6: 11, 7: 31, 11: 39, 9: 41, 12: 46, 15: 49, 13: 49, 18: 59, 17: 53, 19: 59, 21: 68}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 81
+	runtime: 16.67303490638733 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 4: 8, 8: 9, 5: 10, 10: 17, 14: 25, 1: 17, 6: 27, 12: 35, 11: 35, 20: 28, 15: 47, 7: 45, 18: 58, 16: 57, 9: 63, 13: 66, 17: 67, 19: 72, 21: 81}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 83
+	runtime: 12.030000686645508 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 1: 0, 4: 8, 8: 10, 5: 10, 10: 18, 20: 25, 14: 25, 6: 10, 12: 35, 16: 35, 15: 37, 7: 47, 9: 59, 11: 57, 13: 67, 17: 68, 19: 73, 18: 74, 21: 83}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 70
+	runtime: 13.760966539382935 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 3: 0, 8: 9, 4: 9, 5: 11, 10: 17, 6: 11, 11: 17, 20: 24, 7: 31, 14: 24, 12: 35, 15: 42, 16: 45, 9: 52, 13: 55, 18: 56, 17: 56, 19: 61, 21: 70}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 82
+	runtime: 14.971034288406372 seconds 
+	schedule: {0: 0, 2: 0, 8: 8, 10: 16, 1: 0, 20: 23, 3: 16, 4: 25, 14: 25, 16: 35, 5: 35, 6: 30, 12: 42, 15: 45, 7: 44, 9: 55, 11: 58, 13: 59, 18: 70, 17: 68, 19: 73, 21: 82}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.5_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 384
+total time minutes: 6.4
+total time hours: 0.10666666666666667
+instance_min_t: 48
+instance_max_t: 132
+
+t_best 68
+runtime_of_best_iteration: 13.740965604782104
+iteration_best_solution: 0
+
+avg_t 76.8
+std_t:  7.19027120489902
+
+avg_runtime 14.23520040512085
+std_runtime: 1.7187611930543587
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 66
+	runtime: 20.43296718597412 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 2: 0, 8: 9, 10: 17, 4: 9, 6: 11, 7: 12, 14: 24, 11: 34, 20: 24, 12: 38, 16: 40, 5: 32, 9: 44, 15: 47, 18: 57, 13: 47, 17: 49, 19: 57, 21: 66}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 72
+	runtime: 19.020998001098633 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 2: 0, 8: 9, 10: 17, 14: 25, 20: 24, 4: 9, 16: 35, 5: 31, 6: 17, 7: 37, 9: 47, 11: 41, 12: 51, 15: 53, 18: 63, 13: 51, 17: 53, 19: 58, 21: 72}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 73
+	runtime: 18.09500217437744 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 4: 8, 8: 8, 10: 16, 20: 24, 3: 16, 14: 23, 5: 27, 16: 35, 6: 26, 7: 33, 9: 44, 12: 41, 15: 44, 13: 48, 11: 54, 17: 49, 18: 64, 19: 63, 21: 73}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 72
+	runtime: 17.759967803955078 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 1: 9, 4: 8, 6: 10, 11: 11, 12: 11, 5: 18, 7: 24, 15: 34, 9: 34, 8: 21, 10: 38, 18: 46, 13: 37, 20: 65, 17: 56, 14: 46, 16: 57, 19: 63, 21: 72}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 71
+	runtime: 17.712029933929443 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 8: 8, 4: 8, 3: 16, 10: 16, 14: 23, 5: 25, 16: 34, 20: 25, 6: 23, 12: 31, 7: 43, 15: 33, 11: 43, 9: 53, 18: 62, 13: 56, 17: 57, 19: 62, 21: 71}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.5_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 354
+total time minutes: 5.9
+total time hours: 0.09833333333333334
+instance_min_t: 48
+instance_max_t: 132
+
+t_best 66
+runtime_of_best_iteration: 20.43296718597412
+iteration_best_solution: 0
+
+avg_t 70.8
+std_t:  2.7748873851023217
+
+avg_runtime 18.604193019866944
+std_runtime: 1.1495746873541781
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 59
+	runtime: 40.50400161743164 seconds 
+	schedule: {0: 0, 2: 0, 4: 8, 3: 0, 8: 9, 6: 10, 7: 11, 5: 22, 1: 0, 12: 17, 9: 21, 11: 24, 10: 24, 15: 34, 13: 33, 14: 34, 18: 45, 16: 44, 17: 44, 19: 50, 20: 52, 21: 59}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 69
+	runtime: 33.625001430511475 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 1: 0, 8: 9, 10: 17, 20: 24, 14: 24, 4: 8, 5: 10, 16: 34, 6: 10, 7: 31, 11: 40, 12: 43, 15: 50, 9: 47, 18: 60, 13: 51, 17: 54, 19: 60, 21: 69}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 66
+	runtime: 35.39099907875061 seconds 
+	schedule: {0: 0, 2: 0, 4: 8, 1: 0, 8: 8, 3: 11, 6: 10, 7: 20, 11: 16, 10: 30, 5: 31, 14: 37, 12: 26, 9: 38, 20: 37, 13: 44, 16: 47, 15: 47, 18: 57, 17: 45, 19: 53, 21: 66}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 72
+	runtime: 31.912999153137207 seconds 
+	schedule: {0: 0, 2: 0, 8: 8, 3: 0, 10: 16, 14: 23, 1: 9, 4: 16, 20: 26, 5: 18, 16: 33, 6: 18, 11: 39, 7: 39, 9: 50, 12: 50, 15: 53, 18: 63, 13: 53, 17: 56, 19: 63, 21: 72}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 60
+	runtime: 35.76699948310852 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 4: 8, 8: 10, 5: 10, 10: 18, 6: 10, 14: 25, 11: 16, 7: 26, 12: 11, 15: 35, 18: 46, 9: 36, 1: 0, 13: 40, 16: 45, 17: 41, 19: 51, 20: 52, 21: 60}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.5_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 326
+total time minutes: 5.433333333333334
+total time hours: 0.09055555555555556
+instance_min_t: 48
+instance_max_t: 132
+
+t_best 59
+runtime_of_best_iteration: 40.50400161743164
+iteration_best_solution: 0
+
+avg_t 65.2
+std_t:  5.630275304103699
+
+avg_runtime 35.44000015258789
+std_runtime: 3.220535549974683
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 70
+	runtime: 25.984999179840088 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 8: 8, 3: 0, 10: 16, 20: 23, 4: 9, 14: 23, 6: 11, 11: 12, 12: 24, 5: 31, 15: 33, 16: 47, 18: 46, 7: 37, 9: 49, 13: 53, 17: 56, 19: 61, 21: 70}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 66
+	runtime: 26.26500105857849 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 8: 8, 3: 0, 10: 16, 14: 23, 4: 9, 16: 34, 20: 23, 6: 11, 11: 16, 7: 30, 5: 40, 12: 45, 15: 47, 18: 57, 9: 41, 13: 44, 17: 46, 19: 54, 21: 66}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 67
+	runtime: 24.23872995376587 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 2: 0, 4: 8, 6: 10, 7: 11, 12: 11, 5: 21, 15: 25, 9: 21, 11: 35, 18: 53, 8: 27, 10: 35, 13: 36, 17: 48, 14: 42, 20: 53, 16: 52, 19: 58, 21: 67}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 64
+	runtime: 23.767477989196777 seconds 
+	schedule: {0: 0, 2: 0, 4: 8, 6: 10, 1: 0, 3: 0, 12: 11, 5: 13, 7: 19, 9: 29, 8: 9, 13: 32, 10: 19, 11: 17, 15: 33, 20: 27, 18: 55, 14: 39, 16: 49, 17: 34, 19: 55, 21: 64}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 48
+	instance max_t: 132
+	our best solution t: 67
+	runtime: 20.447999954223633 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 1: 0, 4: 8, 6: 10, 12: 11, 7: 11, 15: 13, 5: 24, 8: 23, 9: 21, 13: 33, 10: 31, 14: 38, 17: 34, 20: 39, 11: 48, 16: 49, 19: 55, 18: 58, 21: 67}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.5_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 334
+total time minutes: 5.566666666666666
+total time hours: 0.09277777777777778
+instance_min_t: 48
+instance_max_t: 132
+
+t_best 64
+runtime_of_best_iteration: 23.767477989196777
+iteration_best_solution: 3
+
+avg_t 66.8
+std_t:  2.16794833886788
+
+avg_runtime 24.14084162712097
+std_runtime: 2.3291110171697182
+
+#################################################################################
+
+These are the results of the instance: ../instances/inst_set1a_sf0.75_nc1.5_n20_m10_00.dzn
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 75
+	runtime: 14.420000076293945 seconds 
+	schedule: {0: 0, 2: 0, 7: 1, 1: 0, 5: 10, 6: 10, 8: 18, 11: 26, 13: 35, 15: 44, 3: 16, 4: 44, 9: 48, 12: 55, 14: 53, 16: 56, 17: 66, 10: 54, 20: 64, 19: 71, 18: 66, 21: 75}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 92
+	runtime: 11.350005626678467 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 1: 1, 6: 9, 4: 9, 9: 17, 7: 23, 14: 32, 18: 33, 10: 22, 5: 42, 12: 48, 11: 49, 8: 57, 20: 68, 13: 57, 15: 68, 16: 75, 17: 83, 19: 88, 21: 92}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 91
+	runtime: 13.856994867324829 seconds 
+	schedule: {0: 0, 3: 0, 4: 9, 1: 0, 9: 13, 2: 18, 6: 19, 5: 27, 11: 35, 10: 34, 12: 33, 7: 34, 8: 43, 14: 51, 18: 52, 13: 60, 20: 61, 15: 69, 16: 74, 17: 82, 19: 87, 21: 91}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 93
+	runtime: 15.106998920440674 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 4: 9, 2: 5, 7: 9, 6: 18, 5: 26, 12: 32, 8: 33, 14: 41, 9: 42, 11: 48, 10: 47, 20: 65, 13: 56, 18: 67, 15: 68, 16: 76, 17: 84, 19: 89, 21: 93}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 97
+	runtime: 13.74299955368042 seconds 
+	schedule: {0: 0, 1: 0, 2: 5, 3: 0, 4: 9, 9: 13, 10: 18, 6: 19, 5: 19, 12: 27, 8: 28, 7: 36, 20: 46, 14: 45, 11: 48, 18: 56, 13: 65, 15: 74, 16: 80, 17: 88, 19: 93, 21: 97}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 448
+total time minutes: 7.466666666666667
+total time hours: 0.12444444444444444
+instance_min_t: 46
+instance_max_t: 107
+
+t_best 75
+runtime_of_best_iteration: 14.420000076293945
+iteration_best_solution: 0
+
+avg_t 89.6
+std_t:  8.473488065725943
+
+avg_runtime 13.695399808883668
+std_runtime: 1.4183538140939038
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 90
+	runtime: 23.67098331451416 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 1: 0, 7: 1, 6: 10, 5: 14, 8: 20, 4: 10, 9: 30, 10: 35, 20: 38, 12: 29, 11: 40, 14: 49, 18: 50, 13: 58, 15: 67, 16: 72, 17: 80, 19: 85, 21: 90}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 74
+	runtime: 26.92699909210205 seconds 
+	schedule: {0: 0, 2: 0, 7: 1, 5: 1, 3: 0, 4: 9, 8: 10, 9: 18, 12: 23, 10: 24, 14: 25, 20: 26, 1: 29, 11: 28, 13: 36, 15: 45, 18: 45, 16: 53, 6: 62, 17: 65, 19: 70, 21: 74}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 69
+	runtime: 24.485000133514404 seconds 
+	schedule: {0: 0, 1: 0, 6: 5, 2: 13, 7: 14, 3: 0, 4: 13, 5: 17, 12: 23, 11: 24, 13: 32, 8: 33, 15: 41, 14: 41, 16: 46, 9: 54, 17: 54, 19: 59, 18: 59, 10: 63, 20: 67, 21: 69}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 80
+	runtime: 21.93999981880188 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 4: 9, 6: 5, 9: 13, 10: 18, 2: 18, 5: 19, 12: 25, 8: 26, 20: 34, 11: 36, 13: 44, 7: 53, 15: 54, 14: 62, 16: 63, 17: 71, 19: 76, 18: 72, 21: 80}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 81
+	runtime: 30.04297137260437 seconds 
+	schedule: {0: 0, 2: 0, 5: 1, 12: 7, 7: 8, 11: 17, 3: 0, 4: 17, 14: 25, 1: 26, 18: 31, 8: 39, 13: 39, 6: 48, 15: 52, 9: 56, 10: 61, 20: 62, 16: 64, 17: 72, 19: 77, 21: 81}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 394
+total time minutes: 6.566666666666666
+total time hours: 0.10944444444444444
+instance_min_t: 46
+instance_max_t: 107
+
+t_best 69
+runtime_of_best_iteration: 24.485000133514404
+iteration_best_solution: 2
+
+avg_t 78.8
+std_t:  7.918333157931662
+
+avg_runtime 25.41319074630737
+std_runtime: 3.14985571587857
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 77
+	runtime: 18.234865188598633 seconds 
+	schedule: {0: 0, 1: 0, 6: 5, 3: 0, 4: 9, 9: 13, 10: 18, 2: 18, 5: 19, 8: 26, 20: 35, 12: 34, 11: 37, 13: 46, 7: 37, 14: 58, 15: 55, 16: 60, 18: 69, 17: 68, 19: 73, 21: 77}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 80
+	runtime: 22.37301778793335 seconds 
+	schedule: {0: 0, 1: 0, 6: 5, 2: 13, 7: 14, 5: 14, 3: 0, 11: 23, 13: 31, 4: 40, 8: 32, 15: 42, 9: 44, 12: 50, 14: 51, 10: 49, 18: 52, 16: 60, 20: 73, 17: 68, 19: 76, 21: 80}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 91
+	runtime: 20.8650004863739 seconds 
+	schedule: {0: 0, 2: 0, 5: 1, 8: 7, 1: 15, 7: 15, 12: 25, 3: 0, 6: 26, 4: 29, 14: 34, 9: 35, 10: 40, 20: 41, 11: 43, 18: 51, 13: 59, 15: 69, 16: 74, 17: 82, 19: 87, 21: 91}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 81
+	runtime: 21.777889728546143 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 3: 0, 7: 1, 6: 10, 5: 9, 11: 18, 4: 26, 12: 18, 8: 27, 14: 35, 18: 36, 9: 44, 13: 44, 10: 53, 15: 54, 16: 59, 17: 67, 20: 74, 19: 76, 21: 81}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 81
+	runtime: 21.455000162124634 seconds 
+	schedule: {0: 0, 3: 0, 4: 9, 1: 0, 9: 13, 6: 18, 10: 18, 2: 26, 5: 28, 7: 27, 12: 37, 14: 36, 11: 38, 8: 46, 13: 46, 20: 54, 18: 56, 15: 59, 16: 64, 17: 72, 19: 77, 21: 81}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 410
+total time minutes: 6.833333333333333
+total time hours: 0.11388888888888889
+instance_min_t: 46
+instance_max_t: 107
+
+t_best 77
+runtime_of_best_iteration: 18.234865188598633
+iteration_best_solution: 0
+
+avg_t 82
+std_t:  5.291502622129181
+
+avg_runtime 20.94115467071533
+std_runtime: 1.6081197835750822
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 80
+	runtime: 32.51545310020447 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 4: 9, 2: 5, 6: 6, 5: 13, 8: 19, 9: 27, 11: 33, 7: 32, 14: 41, 13: 42, 12: 54, 10: 51, 20: 52, 15: 56, 18: 55, 16: 63, 17: 71, 19: 76, 21: 80}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 83
+	runtime: 23.68500018119812 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 7: 5, 5: 5, 12: 14, 8: 15, 6: 23, 3: 1, 4: 15, 14: 31, 18: 32, 11: 40, 13: 48, 15: 57, 16: 62, 17: 70, 9: 70, 19: 79, 10: 76, 20: 77, 21: 83}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 77
+	runtime: 27.072582960128784 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 7: 1, 5: 5, 12: 11, 8: 12, 3: 10, 11: 20, 4: 19, 14: 28, 9: 29, 18: 34, 13: 43, 10: 42, 20: 45, 15: 55, 6: 52, 16: 60, 17: 68, 19: 73, 21: 77}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 74
+	runtime: 32.98680543899536 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 7: 1, 5: 10, 8: 16, 11: 24, 6: 24, 12: 32, 13: 33, 15: 46, 3: 33, 4: 42, 9: 46, 14: 51, 16: 52, 18: 60, 17: 63, 19: 70, 10: 61, 20: 68, 21: 74}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 81
+	runtime: 22.953171491622925 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 6: 5, 4: 9, 9: 13, 2: 13, 5: 19, 11: 25, 13: 33, 10: 18, 12: 42, 7: 43, 8: 43, 14: 52, 18: 53, 20: 61, 15: 53, 16: 64, 17: 72, 19: 77, 21: 81}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 395
+total time minutes: 6.583333333333333
+total time hours: 0.10972222222222222
+instance_min_t: 46
+instance_max_t: 107
+
+t_best 74
+runtime_of_best_iteration: 32.98680543899536
+iteration_best_solution: 3
+
+avg_t 79
+std_t:  3.5355339059327378
+
+avg_runtime 27.84260263442993
+std_runtime: 4.745615853821535
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 82
+	runtime: 57.0907199382782 seconds 
+	schedule: {0: 0, 2: 0, 7: 1, 3: 0, 5: 1, 4: 10, 12: 10, 11: 11, 9: 19, 10: 25, 8: 24, 14: 32, 20: 33, 18: 35, 1: 35, 6: 43, 13: 51, 15: 60, 16: 65, 17: 73, 19: 78, 21: 82}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 91
+	runtime: 49.57310652732849 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 4: 9, 9: 13, 7: 1, 1: 18, 10: 18, 14: 23, 18: 24, 6: 32, 5: 33, 8: 40, 20: 49, 12: 48, 11: 51, 13: 59, 15: 68, 16: 74, 17: 82, 19: 87, 21: 91}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 77
+	runtime: 43.559083461761475 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 4: 9, 6: 5, 2: 13, 5: 14, 8: 20, 9: 28, 12: 35, 11: 33, 10: 33, 13: 41, 15: 51, 7: 50, 14: 59, 20: 42, 16: 60, 18: 69, 17: 68, 19: 73, 21: 77}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 74
+	runtime: 45.96815896034241 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 7: 1, 5: 1, 12: 10, 11: 10, 1: 15, 4: 11, 14: 20, 18: 21, 9: 29, 6: 35, 10: 34, 8: 43, 20: 52, 13: 43, 15: 52, 16: 57, 17: 65, 19: 70, 21: 74}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 88
+	runtime: 44.001452922821045 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 2: 0, 7: 5, 4: 9, 9: 13, 14: 18, 18: 19, 5: 27, 12: 35, 6: 33, 8: 41, 11: 49, 10: 34, 13: 57, 15: 66, 16: 71, 17: 79, 19: 84, 20: 58, 21: 88}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 412
+total time minutes: 6.866666666666666
+total time hours: 0.11444444444444443
+instance_min_t: 46
+instance_max_t: 107
+
+t_best 74
+runtime_of_best_iteration: 45.96815896034241
+iteration_best_solution: 3
+
+avg_t 82.4
+std_t:  7.162401831787993
+
+avg_runtime 48.03850436210632
+std_runtime: 5.588983285255912
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 65
+	runtime: 36.21902847290039 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 2: 0, 6: 5, 5: 5, 12: 13, 11: 13, 7: 14, 8: 21, 13: 23, 15: 37, 4: 32, 14: 36, 18: 37, 16: 45, 17: 53, 9: 53, 10: 58, 20: 59, 19: 61, 21: 65}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 85
+	runtime: 36.315821170806885 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 2: 0, 5: 5, 8: 11, 11: 19, 13: 27, 6: 36, 15: 37, 12: 45, 7: 46, 4: 45, 9: 50, 14: 56, 10: 55, 20: 57, 18: 59, 16: 67, 17: 76, 19: 81, 21: 85}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 78
+	runtime: 33.803497552871704 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 4: 9, 7: 1, 14: 13, 9: 14, 18: 19, 1: 27, 6: 33, 10: 30, 5: 32, 11: 38, 13: 46, 8: 47, 15: 55, 16: 60, 20: 69, 17: 69, 12: 73, 19: 74, 21: 78}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 82
+	runtime: 41.321040630340576 seconds 
+	schedule: {0: 0, 2: 0, 5: 1, 8: 7, 1: 15, 3: 0, 6: 20, 7: 28, 12: 37, 4: 38, 11: 30, 9: 43, 13: 42, 10: 51, 14: 52, 18: 53, 20: 61, 15: 54, 16: 63, 17: 71, 19: 77, 21: 82}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 46
+	instance max_t: 107
+	our best solution t: 75
+	runtime: 42.0936553478241 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 7: 1, 6: 10, 3: 5, 5: 10, 11: 18, 8: 26, 4: 16, 12: 35, 14: 34, 13: 36, 18: 45, 9: 53, 10: 58, 15: 47, 16: 58, 20: 68, 17: 66, 19: 71, 21: 75}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 385
+total time minutes: 6.416666666666667
+total time hours: 0.10694444444444445
+instance_min_t: 46
+instance_max_t: 107
+
+t_best 65
+runtime_of_best_iteration: 36.21902847290039
+iteration_best_solution: 0
+
+avg_t 77
+std_t:  7.713624310270756
+
+avg_runtime 37.95060863494873
+std_runtime: 3.584483161427502
+
+#################################################################################
+
+These are the results of the instance: ../instances/inst_set1a_sf0.75_nc1.8_n20_m20_03.dzn
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 48
+	runtime: 9.829364776611328 seconds 
+	schedule: {0: 0, 2: 0, 4: 7, 3: 0, 7: 7, 1: 0, 5: 9, 10: 9, 9: 14, 8: 12, 16: 12, 11: 15, 13: 24, 12: 24, 15: 26, 17: 36, 14: 26, 6: 36, 19: 42, 20: 41, 18: 31, 21: 48}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 54
+	runtime: 10.68284821510315 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 4: 7, 1: 0, 7: 9, 5: 13, 8: 13, 6: 18, 9: 12, 10: 17, 16: 22, 19: 32, 11: 20, 13: 29, 12: 40, 18: 35, 15: 31, 14: 43, 17: 42, 20: 47, 21: 54}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 50
+	runtime: 10.302392959594727 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 5: 3, 9: 9, 10: 9, 11: 12, 12: 21, 2: 8, 4: 23, 16: 24, 13: 23, 7: 15, 15: 28, 18: 38, 14: 30, 8: 34, 17: 38, 6: 28, 20: 43, 19: 47, 21: 50}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 55
+	runtime: 10.50283408164978 seconds 
+	schedule: {0: 0, 2: 0, 7: 7, 4: 8, 3: 0, 5: 3, 6: 8, 1: 10, 9: 19, 10: 19, 11: 22, 13: 31, 12: 31, 8: 36, 16: 37, 14: 33, 15: 33, 19: 50, 17: 43, 20: 48, 18: 48, 21: 55}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 54
+	runtime: 10.764851808547974 seconds 
+	schedule: {0: 0, 1: 0, 9: 9, 2: 0, 4: 7, 3: 12, 7: 10, 10: 12, 16: 15, 5: 15, 8: 15, 6: 20, 11: 20, 12: 30, 19: 26, 13: 30, 15: 32, 18: 35, 14: 32, 17: 42, 20: 47, 21: 54}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc1.8_n20_m20_03.dzn
+
+iterations: 5
+total time seconds: 261
+total time minutes: 4.35
+total time hours: 0.0725
+instance_min_t: 45
+instance_max_t: 98
+
+t_best 48
+runtime_of_best_iteration: 9.829364776611328
+iteration_best_solution: 0
+
+avg_t 52.2
+std_t:  3.03315017762062
+
+avg_runtime 10.416458368301392
+std_runtime: 0.3733269700976991
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 47
+	runtime: 19.282654285430908 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 10: 9, 2: 0, 9: 9, 5: 9, 11: 14, 7: 7, 4: 10, 8: 15, 16: 15, 6: 14, 13: 23, 15: 25, 18: 35, 14: 25, 12: 25, 19: 27, 17: 35, 20: 40, 21: 47}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 50
+	runtime: 18.820480585098267 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 9: 9, 7: 9, 3: 0, 4: 7, 8: 12, 5: 10, 10: 10, 11: 15, 16: 16, 6: 15, 19: 26, 13: 24, 14: 26, 18: 30, 15: 28, 12: 29, 17: 38, 20: 43, 21: 50}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 48
+	runtime: 18.361212968826294 seconds 
+	schedule: {0: 0, 1: 0, 10: 9, 9: 9, 16: 12, 3: 0, 2: 0, 7: 9, 5: 10, 4: 11, 8: 22, 11: 15, 6: 27, 19: 32, 12: 24, 13: 24, 15: 26, 18: 41, 17: 36, 14: 29, 20: 41, 21: 48}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 46
+	runtime: 18.245959758758545 seconds 
+	schedule: {0: 0, 3: 0, 5: 3, 2: 0, 4: 7, 7: 8, 8: 12, 1: 0, 6: 10, 9: 9, 10: 10, 11: 13, 13: 22, 15: 24, 12: 22, 14: 24, 16: 16, 18: 27, 17: 34, 19: 27, 20: 39, 21: 46}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 45
+	runtime: 18.281413555145264 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 1: 0, 5: 3, 7: 7, 4: 7, 9: 9, 6: 12, 8: 12, 10: 9, 11: 12, 16: 12, 13: 21, 18: 25, 19: 22, 12: 23, 15: 23, 14: 25, 17: 33, 20: 38, 21: 45}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc1.8_n20_m20_03.dzn
+
+iterations: 5
+total time seconds: 236
+total time minutes: 3.933333333333333
+total time hours: 0.06555555555555555
+instance_min_t: 45
+instance_max_t: 98
+
+t_best 45
+runtime_of_best_iteration: 18.281413555145264
+iteration_best_solution: 4
+
+avg_t 47.2
+std_t:  1.9235384061671343
+
+avg_runtime 18.598344230651854
+std_runtime: 0.44678739784209076
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 59
+	runtime: 13.352401971817017 seconds 
+	schedule: {0: 0, 2: 0, 7: 7, 3: 0, 5: 9, 4: 7, 8: 12, 1: 14, 10: 23, 16: 27, 6: 14, 9: 24, 11: 26, 12: 38, 13: 35, 18: 38, 15: 37, 17: 47, 19: 47, 14: 45, 20: 52, 21: 59}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 51
+	runtime: 13.21785855293274 seconds 
+	schedule: {0: 0, 2: 0, 4: 7, 1: 0, 3: 0, 7: 9, 9: 12, 8: 12, 5: 11, 6: 16, 10: 9, 16: 12, 11: 18, 12: 27, 19: 24, 13: 27, 15: 29, 18: 32, 17: 39, 14: 29, 20: 44, 21: 51}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 49
+	runtime: 16.50390124320984 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 1: 0, 4: 7, 10: 9, 5: 9, 6: 14, 9: 12, 11: 14, 16: 23, 13: 23, 12: 23, 15: 26, 7: 17, 14: 37, 17: 36, 18: 33, 20: 42, 8: 26, 19: 41, 21: 49}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 50
+	runtime: 14.010500192642212 seconds 
+	schedule: {0: 0, 1: 0, 9: 9, 2: 0, 7: 7, 10: 9, 3: 0, 4: 12, 8: 17, 5: 10, 16: 12, 11: 17, 6: 15, 12: 26, 13: 26, 19: 22, 15: 28, 14: 29, 17: 38, 20: 43, 18: 31, 21: 50}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 45
+	runtime: 17.432816743850708 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 3: 0, 5: 3, 7: 8, 4: 9, 6: 10, 8: 14, 9: 12, 10: 9, 16: 14, 11: 12, 12: 21, 13: 21, 14: 23, 19: 27, 15: 23, 17: 33, 18: 26, 20: 38, 21: 45}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc1.8_n20_m20_03.dzn
+
+iterations: 5
+total time seconds: 254
+total time minutes: 4.233333333333333
+total time hours: 0.07055555555555555
+instance_min_t: 45
+instance_max_t: 98
+
+t_best 45
+runtime_of_best_iteration: 17.432816743850708
+iteration_best_solution: 4
+
+avg_t 50.8
+std_t:  5.118593556827891
+
+avg_runtime 14.903495740890502
+std_runtime: 1.9367155293786462
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 49
+	runtime: 17.967055797576904 seconds 
+	schedule: {0: 0, 1: 0, 10: 9, 16: 12, 3: 0, 2: 0, 5: 9, 7: 14, 4: 7, 11: 16, 8: 16, 6: 14, 19: 22, 9: 16, 13: 25, 18: 30, 12: 25, 14: 27, 15: 27, 17: 37, 20: 42, 21: 49}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 45
+	runtime: 17.773720026016235 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 10: 9, 2: 0, 16: 12, 5: 3, 6: 10, 9: 9, 4: 7, 7: 12, 8: 14, 11: 12, 12: 21, 19: 23, 13: 21, 14: 23, 15: 23, 17: 33, 20: 38, 18: 27, 21: 45}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 48
+	runtime: 18.148845672607422 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 4: 7, 9: 9, 3: 0, 10: 9, 7: 14, 5: 9, 11: 14, 12: 24, 8: 16, 16: 23, 13: 23, 15: 25, 6: 14, 14: 26, 19: 35, 17: 36, 20: 41, 18: 35, 21: 48}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 53
+	runtime: 16.69557023048401 seconds 
+	schedule: {0: 0, 3: 0, 5: 3, 2: 0, 7: 8, 4: 7, 1: 8, 8: 12, 9: 17, 10: 17, 11: 20, 6: 10, 13: 29, 14: 31, 15: 31, 12: 29, 16: 31, 19: 41, 18: 46, 17: 41, 20: 46, 21: 53}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 47
+	runtime: 17.553019285202026 seconds 
+	schedule: {0: 0, 2: 0, 4: 7, 3: 0, 7: 7, 5: 9, 1: 0, 9: 14, 6: 14, 10: 9, 11: 14, 16: 12, 12: 23, 8: 16, 19: 30, 13: 23, 15: 25, 17: 35, 18: 25, 14: 27, 20: 40, 21: 47}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc1.8_n20_m20_03.dzn
+
+iterations: 5
+total time seconds: 242
+total time minutes: 4.033333333333333
+total time hours: 0.06722222222222222
+instance_min_t: 45
+instance_max_t: 98
+
+t_best 45
+runtime_of_best_iteration: 17.773720026016235
+iteration_best_solution: 1
+
+avg_t 48.4
+std_t:  2.9664793948382653
+
+avg_runtime 17.62764220237732
+std_runtime: 0.5662420235866741
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 47
+	runtime: 31.16172480583191 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 10: 9, 2: 0, 9: 9, 4: 7, 16: 12, 7: 7, 5: 9, 11: 14, 13: 23, 6: 14, 12: 23, 8: 23, 19: 27, 14: 28, 18: 25, 15: 25, 17: 35, 20: 40, 21: 47}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 47
+	runtime: 33.3198778629303 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 4: 7, 10: 9, 3: 0, 16: 12, 7: 9, 8: 12, 5: 9, 9: 11, 11: 14, 13: 23, 14: 25, 12: 23, 15: 25, 17: 35, 18: 25, 6: 16, 19: 32, 20: 40, 21: 47}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 46
+	runtime: 34.41363024711609 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 2: 0, 10: 9, 9: 9, 5: 3, 11: 12, 12: 21, 13: 21, 6: 29, 15: 24, 16: 12, 4: 22, 7: 8, 14: 27, 18: 27, 17: 34, 20: 39, 8: 32, 19: 37, 21: 46}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 45
+	runtime: 31.689035177230835 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 10: 9, 5: 3, 2: 0, 16: 12, 6: 8, 11: 12, 7: 10, 12: 21, 9: 9, 13: 21, 15: 23, 4: 23, 17: 33, 18: 24, 8: 28, 19: 34, 14: 33, 20: 38, 21: 45}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 47
+	runtime: 35.418033838272095 seconds 
+	schedule: {0: 0, 2: 0, 7: 7, 1: 0, 3: 0, 10: 9, 5: 9, 16: 12, 11: 14, 6: 14, 4: 22, 12: 24, 9: 9, 13: 23, 18: 26, 8: 28, 19: 34, 15: 25, 17: 35, 14: 29, 20: 40, 21: 47}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc1.8_n20_m20_03.dzn
+
+iterations: 5
+total time seconds: 232
+total time minutes: 3.8666666666666667
+total time hours: 0.06444444444444444
+instance_min_t: 45
+instance_max_t: 98
+
+t_best 45
+runtime_of_best_iteration: 31.689035177230835
+iteration_best_solution: 3
+
+avg_t 46.4
+std_t:  0.8944271909999159
+
+avg_runtime 33.20046038627625
+std_runtime: 1.7919627918489993
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 50
+	runtime: 22.633564233779907 seconds 
+	schedule: {0: 0, 2: 0, 7: 7, 1: 0, 10: 9, 9: 9, 16: 12, 3: 9, 5: 12, 4: 7, 8: 12, 11: 17, 12: 26, 13: 26, 6: 17, 14: 28, 19: 22, 15: 28, 17: 38, 18: 28, 20: 43, 21: 50}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 48
+	runtime: 22.981041193008423 seconds 
+	schedule: {0: 0, 1: 0, 9: 9, 10: 9, 3: 0, 2: 0, 7: 7, 16: 12, 4: 9, 8: 14, 5: 10, 6: 15, 19: 22, 11: 15, 12: 24, 13: 24, 14: 27, 15: 26, 18: 28, 17: 36, 20: 41, 21: 48}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 45
+	runtime: 25.411870002746582 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 4: 7, 7: 10, 3: 0, 9: 9, 5: 3, 6: 10, 10: 9, 8: 12, 16: 16, 19: 26, 11: 12, 13: 21, 14: 23, 18: 26, 15: 23, 12: 25, 17: 33, 20: 38, 21: 45}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 48
+	runtime: 24.701128244400024 seconds 
+	schedule: {0: 0, 2: 0, 4: 7, 3: 0, 7: 7, 1: 0, 8: 12, 9: 14, 10: 12, 16: 16, 5: 9, 6: 15, 19: 27, 11: 15, 12: 29, 13: 24, 18: 31, 15: 26, 17: 36, 14: 27, 20: 41, 21: 48}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 45
+	instance max_t: 98
+	our best solution t: 45
+	runtime: 26.47682285308838 seconds 
+	schedule: {0: 0, 3: 0, 5: 3, 1: 0, 2: 0, 10: 9, 4: 7, 6: 10, 7: 8, 16: 12, 9: 12, 8: 13, 19: 28, 11: 12, 12: 25, 13: 21, 18: 24, 14: 23, 15: 23, 17: 33, 20: 38, 21: 45}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc1.8_n20_m20_03.dzn
+
+iterations: 5
+total time seconds: 236
+total time minutes: 3.933333333333333
+total time hours: 0.06555555555555555
+instance_min_t: 45
+instance_max_t: 98
+
+t_best 45
+runtime_of_best_iteration: 25.411870002746582
+iteration_best_solution: 2
+
+avg_t 47.2
+std_t:  2.16794833886788
+
+avg_runtime 24.440885305404663
+std_runtime: 1.624279352226267
+
+#################################################################################
+
+These are the results of the instance: ../instances/inst_set1a_sf0.75_nc2.1_n20_m10_01.dzn
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 105
+	runtime: 18.645349264144897 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 4: 4, 9: 10, 3: 17, 11: 18, 8: 28, 5: 37, 6: 41, 13: 48, 10: 58, 7: 45, 12: 68, 14: 70, 15: 77, 17: 88, 19: 92, 16: 82, 20: 93, 18: 101, 21: 105}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 99
+	runtime: 19.289542198181152 seconds 
+	schedule: {0: 0, 2: 0, 3: 2, 9: 3, 1: 10, 4: 14, 5: 20, 6: 24, 8: 31, 11: 40, 12: 50, 7: 52, 10: 52, 15: 62, 13: 62, 17: 74, 14: 79, 19: 75, 16: 69, 20: 86, 18: 94, 21: 99}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 110
+	runtime: 18.806016445159912 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 9: 4, 4: 11, 10: 17, 12: 27, 8: 29, 3: 40, 11: 41, 5: 51, 7: 55, 13: 55, 14: 65, 15: 72, 6: 79, 17: 86, 16: 88, 18: 98, 19: 78, 20: 102, 21: 110}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 96
+	runtime: 17.672000408172607 seconds 
+	schedule: {0: 0, 3: 0, 2: 1, 1: 0, 9: 4, 4: 4, 11: 11, 8: 21, 5: 30, 7: 35, 10: 35, 13: 45, 15: 46, 12: 55, 6: 60, 19: 57, 16: 67, 17: 58, 14: 77, 18: 84, 20: 88, 21: 96}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 98
+	runtime: 19.542251586914062 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 3: 2, 11: 4, 9: 14, 4: 21, 8: 27, 12: 36, 5: 38, 13: 42, 10: 52, 7: 52, 15: 63, 6: 69, 19: 68, 14: 77, 17: 84, 16: 76, 20: 86, 18: 94, 21: 98}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc2.1_n20_m10_01.dzn
+
+iterations: 5
+total time seconds: 508
+total time minutes: 8.466666666666667
+total time hours: 0.1411111111111111
+instance_min_t: 47
+instance_max_t: 118
+
+t_best 96
+runtime_of_best_iteration: 17.672000408172607
+iteration_best_solution: 3
+
+avg_t 101.6
+std_t:  5.770615218501404
+
+avg_runtime 18.791031980514525
+std_runtime: 0.722240088558623
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 89
+	runtime: 30.175084114074707 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 11: 4, 2: 14, 4: 4, 5: 16, 10: 20, 8: 30, 7: 20, 13: 40, 14: 50, 6: 42, 9: 57, 15: 58, 19: 71, 16: 64, 12: 74, 18: 77, 17: 76, 20: 81, 21: 89}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 96
+	runtime: 33.10161471366882 seconds 
+	schedule: {0: 0, 3: 0, 2: 1, 1: 0, 11: 4, 9: 14, 4: 21, 12: 22, 5: 27, 7: 31, 8: 31, 13: 41, 6: 51, 15: 58, 10: 64, 17: 63, 14: 77, 19: 74, 16: 74, 20: 84, 18: 92, 21: 96}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 84
+	runtime: 29.085203409194946 seconds 
+	schedule: {0: 0, 3: 0, 2: 1, 1: 0, 11: 4, 4: 4, 10: 14, 5: 24, 9: 28, 12: 35, 7: 28, 6: 38, 8: 38, 15: 48, 16: 54, 17: 53, 13: 54, 20: 64, 14: 72, 19: 79, 18: 80, 21: 84}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 78
+	runtime: 30.10575795173645 seconds 
+	schedule: {0: 0, 1: 0, 4: 4, 3: 0, 5: 10, 7: 14, 11: 14, 6: 26, 8: 24, 2: 33, 15: 35, 9: 35, 13: 44, 12: 42, 10: 44, 14: 56, 17: 55, 19: 54, 16: 56, 18: 66, 20: 70, 21: 78}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 101
+	runtime: 36.63056254386902 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 4: 4, 8: 10, 10: 19, 3: 29, 9: 30, 11: 37, 12: 47, 5: 49, 7: 53, 15: 65, 13: 53, 19: 71, 14: 72, 6: 70, 17: 70, 16: 79, 20: 89, 18: 97, 21: 101}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc2.1_n20_m10_01.dzn
+
+iterations: 5
+total time seconds: 448
+total time minutes: 7.466666666666667
+total time hours: 0.12444444444444444
+instance_min_t: 47
+instance_max_t: 118
+
+t_best 78
+runtime_of_best_iteration: 30.10575795173645
+iteration_best_solution: 3
+
+avg_t 89.6
+std_t:  9.181503144910424
+
+avg_runtime 31.81964454650879
+std_runtime: 3.078454729889462
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 114
+	runtime: 25.23110055923462 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 4: 4, 8: 10, 2: 19, 10: 21, 5: 31, 6: 36, 9: 36, 12: 43, 11: 45, 13: 55, 7: 66, 15: 76, 16: 90, 17: 87, 14: 83, 18: 100, 20: 104, 19: 113, 21: 114}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 86
+	runtime: 22.95513939857483 seconds 
+	schedule: {0: 0, 3: 0, 2: 1, 1: 0, 4: 4, 11: 4, 9: 14, 12: 21, 5: 23, 8: 28, 7: 27, 13: 38, 15: 37, 10: 43, 14: 53, 6: 53, 16: 62, 17: 60, 19: 61, 20: 72, 18: 82, 21: 86}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 97
+	runtime: 20.61431360244751 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 11: 4, 2: 14, 9: 16, 12: 23, 4: 4, 8: 26, 10: 35, 5: 45, 6: 51, 7: 49, 15: 60, 13: 65, 16: 66, 19: 76, 17: 75, 20: 77, 14: 86, 18: 93, 21: 97}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 106
+	runtime: 22.84837007522583 seconds 
+	schedule: {0: 0, 2: 0, 9: 2, 3: 9, 1: 9, 4: 13, 8: 19, 10: 28, 11: 38, 12: 48, 5: 50, 6: 54, 13: 60, 7: 61, 14: 71, 15: 78, 19: 83, 16: 84, 18: 94, 17: 88, 20: 98, 21: 106}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 99
+	runtime: 22.842853546142578 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 9: 4, 12: 11, 3: 13, 11: 14, 4: 11, 10: 24, 8: 34, 5: 43, 13: 47, 7: 47, 6: 57, 14: 64, 15: 71, 16: 76, 17: 84, 18: 87, 20: 91, 19: 80, 21: 99}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc2.1_n20_m10_01.dzn
+
+iterations: 5
+total time seconds: 502
+total time minutes: 8.366666666666667
+total time hours: 0.13944444444444445
+instance_min_t: 47
+instance_max_t: 118
+
+t_best 86
+runtime_of_best_iteration: 22.95513939857483
+iteration_best_solution: 1
+
+avg_t 100.4
+std_t:  10.4546640309481
+
+avg_runtime 22.898355436325073
+std_runtime: 1.6330454924670568
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 88
+	runtime: 33.44397044181824 seconds 
+	schedule: {0: 0, 1: 0, 4: 4, 3: 0, 11: 4, 8: 10, 2: 19, 9: 21, 10: 28, 5: 38, 12: 42, 13: 44, 6: 54, 7: 44, 14: 54, 15: 61, 16: 66, 17: 67, 18: 76, 19: 73, 20: 80, 21: 88}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 95
+	runtime: 28.781425952911377 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 11: 4, 4: 4, 2: 14, 10: 16, 9: 26, 8: 33, 12: 43, 5: 45, 13: 50, 7: 49, 14: 60, 6: 60, 15: 67, 16: 73, 18: 83, 17: 81, 20: 87, 19: 72, 21: 95}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 99
+	runtime: 30.12099862098694 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 4: 4, 11: 4, 8: 10, 5: 19, 13: 23, 2: 34, 7: 23, 15: 36, 9: 41, 10: 48, 14: 58, 12: 67, 6: 69, 19: 65, 17: 80, 16: 77, 18: 87, 20: 91, 21: 99}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 97
+	runtime: 31.827000379562378 seconds 
+	schedule: {0: 0, 2: 0, 9: 2, 3: 9, 1: 9, 4: 13, 12: 13, 8: 19, 5: 28, 11: 32, 13: 42, 7: 52, 10: 42, 15: 62, 14: 68, 19: 67, 17: 84, 6: 68, 16: 75, 18: 85, 20: 89, 21: 97}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 95
+	runtime: 28.32900905609131 seconds 
+	schedule: {0: 0, 3: 0, 2: 1, 9: 3, 1: 10, 12: 14, 11: 16, 4: 14, 8: 20, 10: 29, 5: 39, 6: 43, 13: 51, 7: 47, 14: 61, 15: 68, 17: 78, 16: 73, 18: 83, 20: 87, 19: 74, 21: 95}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc2.1_n20_m10_01.dzn
+
+iterations: 5
+total time seconds: 474
+total time minutes: 7.9
+total time hours: 0.13166666666666668
+instance_min_t: 47
+instance_max_t: 118
+
+t_best 88
+runtime_of_best_iteration: 33.44397044181824
+iteration_best_solution: 0
+
+avg_t 94.8
+std_t:  4.147288270665544
+
+avg_runtime 30.500480890274048
+std_runtime: 2.135312113751454
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 91
+	runtime: 59.476027965545654 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 9: 4, 12: 11, 3: 13, 4: 4, 5: 14, 6: 18, 7: 25, 8: 18, 15: 35, 10: 40, 11: 50, 13: 61, 17: 44, 16: 60, 19: 72, 14: 71, 20: 79, 18: 87, 21: 91}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 100
+	runtime: 71.41977834701538 seconds 
+	schedule: {0: 0, 2: 0, 3: 2, 9: 3, 1: 10, 11: 14, 12: 24, 4: 14, 8: 26, 10: 35, 5: 45, 6: 49, 13: 56, 7: 56, 14: 66, 15: 73, 16: 78, 17: 84, 19: 86, 20: 88, 18: 96, 21: 100}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 87
+	runtime: 59.55888843536377 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 4: 4, 2: 1, 11: 4, 10: 14, 5: 24, 6: 29, 7: 28, 8: 36, 13: 45, 15: 45, 19: 57, 16: 55, 9: 58, 14: 68, 12: 65, 18: 75, 17: 67, 20: 79, 21: 87}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 84
+	runtime: 58.744420528411865 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 3: 2, 11: 4, 9: 14, 12: 21, 4: 4, 8: 23, 5: 32, 6: 37, 7: 36, 15: 46, 10: 52, 13: 52, 17: 51, 14: 64, 19: 63, 16: 62, 18: 72, 20: 76, 21: 84}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 86
+	runtime: 61.85958552360535 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 11: 4, 4: 4, 2: 14, 9: 16, 8: 14, 12: 23, 10: 25, 5: 35, 6: 41, 13: 39, 7: 49, 15: 59, 14: 67, 17: 65, 19: 66, 16: 64, 18: 74, 20: 78, 21: 86}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc2.1_n20_m10_01.dzn
+
+iterations: 5
+total time seconds: 448
+total time minutes: 7.466666666666667
+total time hours: 0.12444444444444444
+instance_min_t: 47
+instance_max_t: 118
+
+t_best 84
+runtime_of_best_iteration: 58.744420528411865
+iteration_best_solution: 3
+
+avg_t 89.6
+std_t:  6.348228099241552
+
+avg_runtime 62.2117401599884
+std_runtime: 5.278636875483477
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 84
+	runtime: 48.638044357299805 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 2: 4, 4: 4, 11: 6, 10: 16, 5: 26, 8: 32, 6: 30, 7: 37, 15: 47, 16: 52, 13: 41, 9: 54, 14: 62, 12: 69, 17: 71, 18: 72, 19: 64, 20: 76, 21: 84}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 92
+	runtime: 45.92434096336365 seconds 
+	schedule: {0: 0, 3: 0, 2: 1, 1: 0, 9: 4, 11: 11, 4: 4, 12: 21, 10: 23, 5: 33, 7: 39, 6: 37, 8: 44, 13: 53, 15: 56, 16: 63, 17: 65, 20: 73, 14: 81, 18: 88, 19: 68, 21: 92}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 92
+	runtime: 46.089669942855835 seconds 
+	schedule: {0: 0, 2: 0, 9: 2, 3: 9, 1: 2, 12: 10, 11: 12, 4: 10, 10: 24, 8: 35, 5: 44, 13: 48, 7: 48, 15: 58, 6: 63, 17: 71, 19: 68, 16: 70, 14: 73, 18: 80, 20: 84, 21: 92}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 102
+	runtime: 44.65741515159607 seconds 
+	schedule: {0: 0, 2: 0, 3: 2, 1: 0, 11: 4, 4: 4, 8: 10, 10: 19, 9: 30, 12: 37, 5: 39, 13: 43, 7: 43, 15: 54, 14: 61, 19: 76, 17: 70, 6: 61, 16: 77, 18: 87, 20: 94, 21: 102}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 118
+	our best solution t: 89
+	runtime: 42.13316631317139 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 4: 4, 8: 10, 5: 19, 6: 23, 11: 23, 13: 34, 2: 33, 7: 35, 15: 46, 9: 45, 12: 52, 17: 56, 10: 56, 16: 66, 14: 66, 18: 77, 19: 75, 20: 81, 21: 89}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc2.1_n20_m10_01.dzn
+
+iterations: 5
+total time seconds: 459
+total time minutes: 7.65
+total time hours: 0.1275
+instance_min_t: 47
+instance_max_t: 118
+
+t_best 84
+runtime_of_best_iteration: 48.638044357299805
+iteration_best_solution: 0
+
+avg_t 91.8
+std_t:  6.572670690061994
+
+avg_runtime 45.488527345657346
+std_runtime: 2.367485927920831
+
+#################################################################################
+
+These are the results of the instance: ../instances/inst_set1a_sf0.75_nc2.1_n20_m25_03.dzn
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 47
+	runtime: 10.080344438552856 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 6: 5, 3: 0, 4: 5, 9: 5, 5: 11, 12: 19, 7: 19, 15: 15, 20: 31, 11: 26, 14: 33, 10: 19, 8: 11, 19: 29, 16: 31, 13: 29, 17: 41, 18: 45, 21: 47}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 48
+	runtime: 12.845065116882324 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 6: 5, 3: 0, 9: 5, 15: 15, 4: 5, 7: 11, 8: 11, 5: 17, 10: 25, 13: 15, 16: 26, 11: 25, 12: 41, 20: 26, 19: 36, 14: 38, 17: 37, 18: 46, 21: 48}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 42
+	runtime: 12.323105573654175 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 4: 5, 2: 0, 6: 5, 7: 11, 15: 15, 8: 11, 9: 11, 20: 21, 13: 21, 5: 15, 11: 24, 10: 23, 12: 27, 14: 32, 16: 26, 17: 36, 19: 40, 18: 40, 21: 42}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 48
+	runtime: 11.265717267990112 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 2: 0, 9: 5, 6: 5, 4: 5, 7: 11, 5: 11, 11: 19, 8: 25, 12: 19, 10: 21, 14: 22, 15: 30, 20: 36, 13: 29, 19: 31, 16: 32, 17: 42, 18: 46, 21: 48}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 51
+	runtime: 14.068996667861938 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 6: 5, 3: 4, 4: 9, 8: 15, 5: 15, 11: 23, 12: 23, 9: 26, 15: 27, 13: 38, 7: 27, 14: 35, 10: 34, 20: 39, 19: 49, 16: 35, 17: 45, 18: 49, 21: 51}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc2.1_n20_m25_03.dzn
+
+iterations: 5
+total time seconds: 236
+total time minutes: 3.933333333333333
+total time hours: 0.06555555555555555
+instance_min_t: 36
+instance_max_t: 111
+
+t_best 42
+runtime_of_best_iteration: 12.323105573654175
+iteration_best_solution: 2
+
+avg_t 47.2
+std_t:  3.2710854467592254
+
+avg_runtime 12.116645812988281
+std_runtime: 1.521142403902894
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 37
+	runtime: 21.6164288520813 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 2: 0, 4: 5, 9: 5, 5: 11, 8: 13, 11: 19, 6: 5, 7: 11, 10: 19, 12: 22, 14: 23, 19: 28, 13: 22, 15: 15, 16: 20, 17: 31, 20: 28, 18: 35, 21: 37}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 39
+	runtime: 18.500049114227295 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 9: 5, 2: 0, 6: 5, 4: 5, 8: 11, 13: 15, 7: 11, 15: 15, 5: 13, 10: 21, 16: 22, 17: 33, 11: 21, 14: 24, 12: 24, 20: 28, 18: 37, 19: 27, 21: 39}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 46
+	runtime: 21.797017812728882 seconds 
+	schedule: {0: 0, 3: 0, 4: 5, 2: 0, 5: 11, 9: 5, 7: 13, 1: 0, 11: 19, 8: 20, 14: 22, 6: 5, 12: 30, 13: 24, 15: 15, 10: 19, 20: 24, 16: 30, 19: 36, 17: 40, 18: 44, 21: 46}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 40
+	runtime: 18.94973850250244 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 6: 5, 3: 0, 15: 15, 9: 5, 4: 5, 5: 15, 8: 11, 10: 23, 13: 15, 7: 11, 12: 28, 11: 23, 14: 26, 20: 23, 19: 32, 16: 24, 17: 34, 18: 38, 21: 40}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 43
+	runtime: 20.814247369766235 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 9: 5, 4: 5, 5: 11, 2: 0, 8: 11, 11: 19, 14: 24, 13: 15, 7: 15, 6: 13, 19: 28, 10: 23, 12: 25, 15: 23, 16: 26, 17: 36, 18: 41, 20: 26, 21: 43}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc2.1_n20_m25_03.dzn
+
+iterations: 5
+total time seconds: 205
+total time minutes: 3.4166666666666665
+total time hours: 0.05694444444444444
+instance_min_t: 36
+instance_max_t: 111
+
+t_best 37
+runtime_of_best_iteration: 21.6164288520813
+iteration_best_solution: 0
+
+avg_t 41
+std_t:  3.5355339059327378
+
+avg_runtime 20.33549633026123
+std_runtime: 1.5244037331887643
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 37
+	runtime: 15.583298444747925 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 4: 5, 2: 0, 7: 11, 5: 11, 6: 5, 9: 5, 15: 15, 20: 25, 8: 11, 10: 19, 13: 15, 16: 21, 11: 21, 12: 21, 19: 28, 17: 31, 14: 27, 18: 35, 21: 37}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 46
+	runtime: 13.843434572219849 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 6: 5, 3: 0, 4: 5, 5: 11, 8: 11, 12: 19, 13: 15, 11: 24, 9: 21, 10: 29, 7: 11, 14: 30, 15: 21, 16: 30, 19: 28, 20: 30, 17: 40, 18: 44, 21: 46}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 48
+	runtime: 16.674818754196167 seconds 
+	schedule: {0: 0, 3: 0, 9: 5, 4: 5, 5: 11, 11: 19, 1: 4, 2: 0, 7: 11, 6: 13, 15: 26, 20: 28, 10: 25, 14: 22, 8: 22, 12: 38, 19: 30, 13: 32, 16: 28, 17: 42, 18: 46, 21: 48}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 41
+	runtime: 15.712057113647461 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 4: 5, 9: 5, 1: 0, 6: 13, 5: 11, 7: 11, 11: 19, 12: 24, 8: 21, 13: 27, 14: 25, 19: 25, 15: 23, 20: 27, 10: 24, 16: 25, 17: 35, 18: 39, 21: 41}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 51
+	runtime: 15.950858354568481 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 3: 0, 9: 5, 4: 5, 8: 11, 5: 11, 7: 11, 13: 23, 11: 19, 6: 13, 19: 23, 12: 24, 15: 25, 20: 30, 10: 23, 14: 27, 16: 35, 17: 45, 18: 49, 21: 51}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc2.1_n20_m25_03.dzn
+
+iterations: 5
+total time seconds: 223
+total time minutes: 3.716666666666667
+total time hours: 0.06194444444444445
+instance_min_t: 36
+instance_max_t: 111
+
+t_best 37
+runtime_of_best_iteration: 15.583298444747925
+iteration_best_solution: 0
+
+avg_t 44.6
+std_t:  5.594640292279745
+
+avg_runtime 15.552893447875977
+std_runtime: 1.0447008715197548
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 39
+	runtime: 19.066104412078857 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 1: 0, 9: 5, 6: 5, 4: 5, 15: 15, 5: 11, 12: 19, 10: 19, 11: 19, 8: 11, 14: 24, 16: 20, 13: 23, 7: 15, 17: 30, 20: 30, 19: 32, 18: 34, 21: 39}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 42
+	runtime: 19.57294511795044 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 3: 0, 4: 5, 9: 5, 5: 11, 7: 11, 11: 19, 6: 11, 10: 23, 14: 23, 15: 21, 20: 30, 12: 23, 8: 22, 13: 27, 16: 26, 19: 28, 17: 36, 18: 40, 21: 42}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 40
+	runtime: 19.987034797668457 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 3: 0, 4: 5, 8: 11, 6: 5, 9: 15, 13: 15, 7: 21, 15: 15, 5: 11, 12: 19, 11: 24, 19: 31, 20: 31, 10: 23, 16: 24, 14: 27, 17: 34, 18: 38, 21: 40}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 46
+	runtime: 16.98599863052368 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 6: 5, 3: 0, 4: 5, 8: 11, 15: 15, 13: 15, 7: 11, 5: 11, 9: 21, 11: 22, 12: 19, 14: 31, 20: 29, 19: 26, 10: 29, 16: 30, 17: 40, 18: 44, 21: 46}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 40
+	runtime: 19.18900227546692 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 9: 5, 2: 0, 6: 5, 4: 5, 5: 11, 8: 11, 13: 15, 12: 19, 15: 19, 7: 21, 20: 31, 11: 20, 19: 31, 10: 19, 16: 21, 14: 23, 17: 33, 18: 37, 21: 40}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc2.1_n20_m25_03.dzn
+
+iterations: 5
+total time seconds: 207
+total time minutes: 3.45
+total time hours: 0.0575
+instance_min_t: 36
+instance_max_t: 111
+
+t_best 39
+runtime_of_best_iteration: 19.066104412078857
+iteration_best_solution: 0
+
+avg_t 41.4
+std_t:  2.7928480087537886
+
+avg_runtime 18.96021704673767
+std_runtime: 1.1609138160109842
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 40
+	runtime: 35.57196521759033 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 9: 5, 4: 5, 5: 11, 11: 19, 14: 22, 2: 0, 8: 11, 7: 15, 6: 5, 10: 19, 15: 15, 13: 15, 16: 21, 20: 31, 19: 30, 12: 32, 17: 32, 18: 36, 21: 40}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 36
+	runtime: 34.60003590583801 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 3: 0, 6: 5, 9: 5, 15: 15, 4: 5, 5: 11, 7: 13, 12: 19, 8: 11, 13: 23, 20: 23, 11: 23, 14: 26, 10: 19, 16: 20, 19: 32, 17: 30, 18: 34, 21: 36}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 36
+	runtime: 33.55087089538574 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 2: 0, 6: 5, 4: 5, 15: 15, 5: 11, 7: 11, 8: 11, 9: 5, 20: 21, 10: 19, 12: 19, 13: 22, 11: 19, 14: 23, 19: 22, 16: 20, 17: 30, 18: 34, 21: 36}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 39
+	runtime: 31.68108582496643 seconds 
+	schedule: {0: 0, 3: 0, 9: 5, 2: 0, 4: 5, 5: 11, 11: 19, 7: 11, 1: 0, 14: 22, 8: 11, 13: 15, 19: 22, 6: 5, 10: 19, 15: 15, 20: 24, 16: 23, 12: 23, 17: 33, 18: 37, 21: 39}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 37
+	runtime: 33.63289952278137 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 6: 5, 3: 0, 15: 15, 4: 5, 7: 11, 9: 5, 5: 11, 8: 11, 20: 26, 11: 19, 13: 15, 19: 23, 10: 19, 16: 21, 17: 31, 14: 25, 12: 21, 18: 35, 21: 37}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc2.1_n20_m25_03.dzn
+
+iterations: 5
+total time seconds: 188
+total time minutes: 3.1333333333333333
+total time hours: 0.05222222222222222
+instance_min_t: 36
+instance_max_t: 111
+
+t_best 36
+runtime_of_best_iteration: 33.55087089538574
+iteration_best_solution: 2
+
+avg_t 37.6
+std_t:  1.8165902124584952
+
+avg_runtime 33.80737147331238
+std_runtime: 1.4456340867675346
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 38
+	runtime: 27.60235857963562 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 1: 0, 9: 5, 6: 5, 15: 15, 4: 5, 7: 11, 5: 11, 10: 21, 8: 11, 13: 15, 16: 22, 11: 19, 20: 24, 12: 26, 19: 22, 14: 24, 17: 32, 18: 36, 21: 38}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 47
+	runtime: 25.632221698760986 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 1: 0, 4: 5, 6: 5, 5: 11, 11: 19, 12: 19, 7: 11, 15: 15, 9: 22, 8: 11, 19: 24, 10: 30, 20: 32, 13: 25, 14: 30, 16: 31, 17: 41, 18: 45, 21: 47}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 36
+	runtime: 27.104081392288208 seconds 
+	schedule: {0: 0, 3: 0, 9: 5, 2: 0, 4: 5, 5: 11, 7: 11, 11: 19, 1: 0, 6: 5, 12: 19, 14: 23, 10: 19, 8: 11, 13: 24, 15: 15, 19: 22, 20: 26, 16: 20, 17: 30, 18: 34, 21: 36}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 37
+	runtime: 29.022430419921875 seconds 
+	schedule: {0: 0, 3: 0, 9: 5, 4: 5, 2: 0, 1: 0, 5: 11, 11: 19, 8: 11, 14: 27, 6: 5, 7: 11, 13: 25, 10: 19, 15: 15, 20: 22, 12: 31, 16: 21, 19: 22, 17: 31, 18: 35, 21: 37}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 36
+	instance max_t: 111
+	our best solution t: 41
+	runtime: 25.360000610351562 seconds 
+	schedule: {0: 0, 3: 0, 9: 5, 2: 0, 4: 5, 7: 13, 1: 0, 8: 11, 13: 15, 5: 11, 11: 19, 19: 23, 6: 10, 15: 22, 12: 25, 10: 22, 16: 24, 17: 35, 14: 24, 18: 39, 20: 29, 21: 41}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0.75_nc2.1_n20_m25_03.dzn
+
+iterations: 5
+total time seconds: 199
+total time minutes: 3.316666666666667
+total time hours: 0.05527777777777778
+instance_min_t: 36
+instance_max_t: 111
+
+t_best 36
+runtime_of_best_iteration: 27.104081392288208
+iteration_best_solution: 2
+
+avg_t 39.8
+std_t:  4.43846820423443
+
+avg_runtime 26.94421854019165
+std_runtime: 1.5007290912421902
+
+#################################################################################
+
+These are the results of the instance: ../instances/inst_set1a_sf0_nc1.5_n20_m10_00.dzn
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 77
+	runtime: 12.729034423828125 seconds 
+	schedule: {0: 0, 1: 0, 4: 5, 2: 0, 5: 8, 3: 0, 14: 12, 12: 17, 6: 18, 9: 25, 11: 27, 7: 26, 20: 32, 10: 41, 8: 33, 16: 51, 17: 55, 13: 61, 15: 54, 18: 66, 19: 70, 21: 77}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 63
+	runtime: 11.29699969291687 seconds 
+	schedule: {0: 0, 2: 0, 5: 1, 1: 5, 14: 10, 12: 15, 4: 10, 3: 0, 7: 13, 6: 16, 9: 23, 8: 15, 11: 26, 13: 33, 10: 31, 16: 41, 17: 44, 15: 42, 20: 44, 19: 52, 18: 59, 21: 63}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 70
+	runtime: 13.472000360488892 seconds 
+	schedule: {0: 0, 3: 0, 7: 4, 1: 0, 2: 5, 5: 6, 4: 10, 6: 13, 9: 20, 11: 22, 14: 27, 10: 29, 8: 32, 12: 42, 16: 43, 13: 48, 20: 54, 15: 43, 19: 53, 17: 60, 18: 66, 21: 70}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 81
+	runtime: 12.753998756408691 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 5: 5, 12: 9, 4: 9, 14: 10, 3: 0, 6: 15, 9: 22, 7: 12, 20: 26, 11: 24, 10: 29, 16: 39, 8: 43, 15: 54, 13: 53, 19: 64, 17: 71, 18: 77, 21: 81}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 82
+	runtime: 11.414963960647583 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 4: 5, 6: 8, 7: 15, 8: 16, 20: 16, 2: 15, 12: 16, 5: 26, 14: 30, 9: 31, 11: 35, 13: 41, 10: 40, 16: 52, 17: 55, 15: 61, 19: 71, 18: 78, 21: 82}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 373
+total time minutes: 6.216666666666667
+total time hours: 0.10361111111111111
+instance_min_t: 32
+instance_max_t: 102
+
+t_best 63
+runtime_of_best_iteration: 11.29699969291687
+iteration_best_solution: 1
+
+avg_t 74.6
+std_t:  8.018728078691781
+
+avg_runtime 12.333399438858033
+std_runtime: 0.9417392217351853
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 71
+	runtime: 23.285744667053223 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 12: 5, 5: 6, 4: 10, 14: 10, 3: 0, 7: 13, 8: 15, 20: 14, 6: 25, 9: 32, 10: 34, 16: 45, 11: 48, 15: 44, 13: 56, 19: 54, 17: 61, 18: 67, 21: 71}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 65
+	runtime: 23.901962757110596 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 4: 5, 3: 0, 6: 5, 9: 12, 5: 14, 11: 18, 12: 18, 14: 20, 7: 19, 20: 25, 10: 23, 16: 35, 8: 38, 13: 33, 17: 40, 15: 48, 18: 48, 19: 58, 21: 65}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 62
+	runtime: 22.849034309387207 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 3: 0, 4: 5, 7: 5, 5: 8, 14: 12, 8: 12, 10: 17, 6: 27, 12: 34, 15: 35, 16: 29, 20: 6, 9: 34, 11: 36, 19: 45, 17: 52, 13: 44, 18: 58, 21: 62}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 73
+	runtime: 23.10080099105835 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 6: 4, 1: 11, 12: 16, 9: 11, 7: 13, 5: 17, 8: 22, 11: 25, 10: 30, 20: 16, 15: 40, 13: 35, 14: 51, 4: 22, 16: 42, 19: 56, 17: 63, 18: 69, 21: 73}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 68
+	runtime: 22.146277904510498 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 4: 5, 3: 0, 12: 5, 7: 4, 8: 8, 10: 6, 15: 18, 16: 18, 20: 5, 5: 28, 6: 32, 9: 39, 11: 41, 14: 46, 13: 47, 17: 51, 18: 57, 19: 61, 21: 68}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 339
+total time minutes: 5.65
+total time hours: 0.09416666666666668
+instance_min_t: 32
+instance_max_t: 102
+
+t_best 62
+runtime_of_best_iteration: 22.849034309387207
+iteration_best_solution: 2
+
+avg_t 67.8
+std_t:  4.43846820423443
+
+avg_runtime 23.056764125823975
+std_runtime: 0.6404820247143228
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 68
+	runtime: 15.621035814285278 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 4: 5, 7: 4, 2: 0, 12: 5, 20: 5, 8: 6, 10: 8, 16: 18, 5: 21, 15: 25, 14: 35, 17: 43, 6: 40, 9: 50, 11: 52, 13: 58, 19: 57, 18: 64, 21: 68}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 73
+	runtime: 19.055126190185547 seconds 
+	schedule: {0: 0, 2: 0, 5: 1, 1: 5, 12: 10, 14: 11, 4: 10, 3: 0, 6: 16, 9: 23, 7: 13, 8: 23, 20: 33, 10: 25, 15: 35, 16: 42, 17: 46, 11: 52, 13: 57, 18: 62, 19: 66, 21: 73}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 70
+	runtime: 21.39231777191162 seconds 
+	schedule: {0: 0, 3: 0, 6: 4, 1: 11, 2: 11, 7: 4, 5: 16, 10: 20, 20: 16, 4: 23, 14: 30, 16: 36, 12: 35, 17: 39, 9: 51, 8: 39, 11: 54, 15: 49, 13: 59, 19: 59, 18: 66, 21: 70}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 63
+	runtime: 18.657471179962158 seconds 
+	schedule: {0: 0, 3: 0, 6: 4, 2: 0, 9: 11, 1: 11, 5: 16, 7: 16, 4: 17, 12: 20, 8: 21, 10: 21, 20: 31, 16: 31, 17: 34, 11: 42, 15: 31, 13: 54, 14: 47, 19: 52, 18: 59, 21: 63}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 63
+	runtime: 16.417001247406006 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 4: 5, 7: 4, 20: 5, 2: 0, 5: 8, 8: 12, 6: 12, 9: 19, 14: 22, 11: 22, 12: 28, 13: 27, 10: 32, 16: 42, 17: 46, 15: 42, 19: 52, 18: 59, 21: 63}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 337
+total time minutes: 5.616666666666666
+total time hours: 0.0936111111111111
+instance_min_t: 32
+instance_max_t: 102
+
+t_best 63
+runtime_of_best_iteration: 16.417001247406006
+iteration_best_solution: 4
+
+avg_t 67.4
+std_t:  4.39317652729776
+
+avg_runtime 18.22859044075012
+std_runtime: 2.28896631664489
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 67
+	runtime: 22.217782735824585 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 4: 5, 12: 5, 5: 8, 3: 0, 14: 12, 6: 17, 7: 24, 10: 25, 8: 25, 16: 35, 17: 38, 20: 35, 9: 44, 15: 47, 11: 46, 13: 51, 18: 56, 19: 60, 21: 67}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 67
+	runtime: 20.934964895248413 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 4: 5, 12: 5, 3: 0, 7: 4, 6: 8, 8: 15, 20: 5, 10: 15, 15: 30, 16: 26, 9: 29, 11: 31, 13: 38, 5: 43, 17: 50, 14: 50, 19: 56, 18: 63, 21: 67}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 65
+	runtime: 28.85502600669861 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 2: 0, 5: 5, 6: 9, 4: 9, 7: 12, 14: 16, 20: 13, 9: 21, 8: 24, 10: 23, 11: 35, 12: 34, 16: 45, 15: 35, 17: 48, 13: 40, 18: 54, 19: 58, 21: 65}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 73
+	runtime: 20.83800721168518 seconds 
+	schedule: {0: 0, 2: 0, 5: 1, 1: 5, 3: 0, 12: 10, 7: 10, 8: 11, 14: 11, 20: 16, 4: 16, 6: 21, 9: 28, 11: 30, 13: 35, 10: 35, 15: 46, 19: 56, 16: 50, 17: 63, 18: 69, 21: 73}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 70
+	runtime: 29.189679861068726 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 1: 0, 5: 5, 4: 5, 14: 9, 6: 14, 9: 21, 7: 21, 10: 24, 12: 22, 11: 34, 8: 23, 16: 40, 13: 43, 17: 43, 15: 49, 20: 49, 19: 59, 18: 66, 21: 70}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 342
+total time minutes: 5.7
+total time hours: 0.095
+instance_min_t: 32
+instance_max_t: 102
+
+t_best 65
+runtime_of_best_iteration: 28.85502600669861
+iteration_best_solution: 2
+
+avg_t 68.4
+std_t:  3.1304951684997055
+
+avg_runtime 24.407092142105103
+std_runtime: 4.249834452326436
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 64
+	runtime: 55.11696672439575 seconds 
+	schedule: {0: 0, 3: 0, 6: 4, 7: 4, 20: 5, 8: 14, 9: 11, 10: 13, 11: 24, 1: 24, 13: 29, 15: 29, 2: 37, 4: 34, 16: 39, 5: 42, 14: 47, 17: 46, 19: 52, 12: 59, 18: 60, 21: 64}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 75
+	runtime: 46.83382248878479 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 5: 1, 14: 5, 1: 10, 4: 15, 6: 15, 7: 18, 9: 22, 8: 24, 12: 22, 11: 33, 10: 38, 13: 41, 16: 48, 15: 48, 20: 24, 19: 58, 17: 65, 18: 71, 21: 75}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 66
+	runtime: 52.26803469657898 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 6: 4, 9: 11, 11: 13, 7: 4, 1: 11, 4: 17, 12: 16, 5: 20, 14: 24, 10: 25, 8: 29, 13: 39, 16: 44, 20: 35, 15: 39, 17: 49, 19: 55, 18: 62, 21: 66}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 67
+	runtime: 47.06396770477295 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 5: 5, 14: 9, 4: 9, 3: 0, 6: 14, 9: 21, 12: 22, 7: 12, 20: 13, 10: 23, 16: 33, 17: 36, 11: 23, 8: 36, 15: 46, 19: 56, 13: 48, 18: 63, 21: 67}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 72
+	runtime: 62.045876026153564 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 4: 5, 6: 5, 9: 12, 11: 14, 7: 8, 2: 9, 10: 19, 5: 29, 12: 33, 16: 33, 14: 34, 13: 36, 8: 41, 20: 36, 15: 51, 17: 45, 19: 61, 18: 68, 21: 72}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 344
+total time minutes: 5.733333333333333
+total time hours: 0.09555555555555556
+instance_min_t: 32
+instance_max_t: 102
+
+t_best 64
+runtime_of_best_iteration: 55.11696672439575
+iteration_best_solution: 0
+
+avg_t 68.8
+std_t:  4.54972526643093
+
+avg_runtime 52.66573352813721
+std_runtime: 6.315551213807225
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 76
+	runtime: 37.10551857948303 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 3: 0, 4: 5, 7: 5, 20: 6, 10: 6, 8: 15, 15: 25, 12: 35, 6: 36, 16: 26, 9: 43, 5: 45, 17: 49, 14: 49, 11: 55, 13: 60, 18: 65, 19: 69, 21: 76}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 63
+	runtime: 43.7048122882843 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 3: 0, 6: 5, 4: 12, 5: 15, 7: 19, 8: 20, 10: 20, 14: 30, 9: 30, 11: 32, 16: 38, 12: 37, 20: 37, 13: 41, 17: 46, 15: 46, 18: 52, 19: 56, 21: 63}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 70
+	runtime: 37.19982314109802 seconds 
+	schedule: {0: 0, 3: 0, 6: 4, 7: 11, 2: 0, 8: 12, 20: 12, 5: 22, 1: 26, 14: 37, 4: 31, 9: 32, 10: 34, 16: 44, 15: 44, 17: 47, 12: 56, 11: 54, 13: 61, 19: 59, 18: 66, 21: 70}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 59
+	runtime: 36.46903204917908 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 4: 5, 2: 0, 6: 8, 12: 15, 7: 15, 10: 16, 8: 16, 5: 26, 15: 30, 14: 40, 16: 30, 9: 33, 17: 35, 11: 41, 19: 46, 20: 16, 13: 46, 18: 55, 21: 59}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 32
+	instance max_t: 102
+	our best solution t: 73
+	runtime: 28.335002183914185 seconds 
+	schedule: {0: 0, 1: 0, 4: 5, 2: 0, 12: 5, 5: 8, 3: 0, 14: 12, 7: 12, 20: 13, 6: 17, 10: 24, 9: 34, 11: 36, 13: 41, 16: 36, 8: 46, 17: 41, 15: 56, 18: 52, 19: 66, 21: 73}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf0_nc1.5_n20_m10_00.dzn
+
+iterations: 5
+total time seconds: 341
+total time minutes: 5.683333333333334
+total time hours: 0.09472222222222222
+instance_min_t: 32
+instance_max_t: 102
+
+t_best 59
+runtime_of_best_iteration: 36.46903204917908
+iteration_best_solution: 3
+
+avg_t 68.2
+std_t:  7.049822692805827
+
+avg_runtime 36.56283764839172
+std_runtime: 5.4638386412099305
+
+#################################################################################
+
+These are the results of the instance: ../instances/inst_set1a_sf1_nc1.5_n20_m20_00.dzn
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 66
+	runtime: 12.534040212631226 seconds 
+	schedule: {0: 0, 3: 0, 7: 6, 2: 11, 1: 0, 8: 13, 4: 11, 5: 18, 9: 23, 6: 7, 10: 18, 16: 24, 11: 30, 12: 30, 20: 39, 14: 39, 19: 49, 13: 50, 15: 58, 17: 61, 18: 64, 21: 66}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 64
+	runtime: 12.428996086120605 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 3: 0, 6: 7, 4: 12, 10: 19, 16: 24, 7: 20, 5: 29, 9: 25, 8: 34, 12: 37, 20: 40, 11: 34, 14: 49, 13: 44, 19: 58, 15: 52, 17: 58, 18: 62, 21: 64}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 67
+	runtime: 14.778998613357544 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 4: 7, 10: 14, 3: 17, 6: 7, 9: 14, 5: 14, 11: 23, 14: 34, 7: 32, 13: 37, 15: 47, 16: 45, 8: 50, 17: 55, 12: 43, 18: 58, 19: 51, 20: 58, 21: 67}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 58
+	runtime: 10.93700098991394 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 6: 7, 2: 6, 7: 8, 8: 13, 4: 13, 10: 20, 9: 20, 16: 27, 5: 23, 12: 28, 20: 30, 11: 32, 14: 41, 19: 51, 13: 41, 15: 50, 17: 53, 18: 56, 21: 58}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 51
+	runtime: 13.477999448776245 seconds 
+	schedule: {0: 0, 3: 0, 7: 6, 8: 11, 2: 16, 1: 0, 6: 7, 4: 7, 10: 18, 5: 14, 12: 21, 9: 19, 16: 23, 11: 23, 20: 33, 13: 33, 14: 33, 15: 42, 19: 42, 17: 45, 18: 49, 21: 51}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc1.5_n20_m20_00.dzn
+
+iterations: 5
+total time seconds: 306
+total time minutes: 5.1
+total time hours: 0.08499999999999999
+instance_min_t: 44
+instance_max_t: 109
+
+t_best 51
+runtime_of_best_iteration: 13.477999448776245
+iteration_best_solution: 4
+
+avg_t 61.2
+std_t:  6.685805860178712
+
+avg_runtime 12.831407070159912
+std_runtime: 1.4186552231007836
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 56
+	runtime: 20.41198229789734 seconds 
+	schedule: {0: 0, 1: 0, 4: 7, 10: 14, 6: 7, 16: 17, 3: 0, 9: 14, 7: 14, 5: 22, 8: 22, 12: 27, 2: 22, 11: 27, 14: 36, 19: 45, 20: 29, 13: 37, 15: 46, 17: 51, 18: 54, 21: 56}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 61
+	runtime: 25.668996334075928 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 4: 7, 10: 14, 9: 14, 5: 17, 3: 7, 6: 7, 11: 22, 13: 31, 14: 31, 16: 42, 7: 42, 15: 39, 8: 47, 17: 48, 18: 52, 12: 49, 20: 52, 19: 53, 21: 61}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 60
+	runtime: 20.649054527282715 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 4: 7, 6: 7, 10: 14, 9: 14, 3: 2, 7: 17, 8: 25, 5: 21, 16: 26, 11: 26, 13: 35, 12: 31, 15: 43, 17: 46, 20: 51, 18: 49, 14: 44, 19: 53, 21: 60}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 56
+	runtime: 21.034997701644897 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 6: 7, 7: 6, 4: 7, 5: 14, 10: 14, 2: 11, 9: 14, 16: 17, 11: 22, 12: 25, 8: 23, 20: 28, 14: 31, 19: 41, 13: 40, 15: 48, 17: 51, 18: 54, 21: 56}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 61
+	runtime: 22.22564172744751 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 6: 7, 3: 0, 4: 7, 10: 14, 5: 14, 11: 19, 16: 17, 14: 28, 7: 22, 9: 37, 13: 44, 8: 29, 12: 38, 19: 45, 15: 52, 20: 52, 17: 55, 18: 59, 21: 61}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc1.5_n20_m20_00.dzn
+
+iterations: 5
+total time seconds: 294
+total time minutes: 4.9
+total time hours: 0.08166666666666668
+instance_min_t: 44
+instance_max_t: 109
+
+t_best 56
+runtime_of_best_iteration: 20.41198229789734
+iteration_best_solution: 0
+
+avg_t 58.8
+std_t:  2.588435821108957
+
+avg_runtime 21.998134517669676
+std_runtime: 2.167401336669321
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 59
+	runtime: 16.609289169311523 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 4: 7, 2: 6, 6: 7, 7: 6, 9: 14, 10: 14, 8: 11, 5: 21, 16: 17, 11: 26, 14: 35, 12: 28, 13: 36, 19: 44, 20: 50, 15: 47, 17: 53, 18: 57, 21: 59}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 54
+	runtime: 16.79995560646057 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 6: 7, 3: 2, 7: 8, 8: 13, 4: 13, 5: 20, 10: 21, 9: 26, 16: 25, 11: 25, 13: 34, 15: 42, 14: 36, 17: 45, 18: 49, 12: 34, 20: 45, 19: 48, 21: 54}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 63
+	runtime: 18.479037761688232 seconds 
+	schedule: {0: 0, 3: 0, 2: 6, 1: 0, 4: 7, 10: 14, 9: 14, 5: 17, 11: 22, 16: 25, 14: 31, 7: 31, 6: 7, 13: 41, 12: 36, 19: 46, 8: 40, 20: 46, 15: 51, 17: 55, 18: 61, 21: 63}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 56
+	runtime: 17.799999952316284 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 1: 0, 4: 7, 5: 14, 9: 17, 6: 7, 10: 14, 11: 24, 12: 25, 13: 34, 7: 27, 16: 34, 14: 33, 15: 44, 17: 48, 18: 53, 19: 42, 8: 42, 20: 47, 21: 56}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 54
+	runtime: 17.919979572296143 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 7: 6, 8: 11, 4: 7, 2: 16, 10: 14, 5: 14, 9: 18, 16: 17, 6: 26, 11: 23, 14: 34, 13: 32, 12: 32, 20: 43, 19: 43, 15: 40, 17: 49, 18: 52, 21: 54}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc1.5_n20_m20_00.dzn
+
+iterations: 5
+total time seconds: 286
+total time minutes: 4.766666666666667
+total time hours: 0.07944444444444444
+instance_min_t: 44
+instance_max_t: 109
+
+t_best 54
+runtime_of_best_iteration: 16.79995560646057
+iteration_best_solution: 1
+
+avg_t 57.2
+std_t:  3.8340579025361627
+
+avg_runtime 17.52165241241455
+std_runtime: 0.791514616631023
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 60
+	runtime: 19.463560581207275 seconds 
+	schedule: {0: 0, 3: 0, 7: 6, 8: 11, 1: 0, 4: 13, 2: 7, 6: 7, 10: 20, 16: 23, 5: 21, 12: 26, 11: 28, 14: 38, 20: 28, 19: 52, 9: 37, 13: 44, 15: 52, 17: 55, 18: 58, 21: 60}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 58
+	runtime: 26.232717275619507 seconds 
+	schedule: {0: 0, 1: 0, 4: 7, 2: 0, 5: 14, 10: 14, 6: 19, 16: 24, 3: 2, 9: 17, 7: 19, 8: 33, 12: 29, 11: 29, 14: 38, 19: 47, 13: 39, 20: 48, 15: 49, 17: 53, 18: 56, 21: 58}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 60
+	runtime: 25.77105951309204 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 7: 6, 4: 7, 5: 14, 6: 7, 12: 19, 8: 22, 2: 11, 10: 19, 11: 19, 14: 32, 9: 28, 13: 35, 20: 44, 15: 43, 17: 46, 16: 49, 19: 54, 18: 55, 21: 60}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 59
+	runtime: 27.68757700920105 seconds 
+	schedule: {0: 0, 3: 0, 7: 6, 1: 0, 4: 7, 2: 0, 9: 17, 8: 11, 5: 14, 10: 16, 6: 11, 11: 21, 13: 30, 12: 28, 14: 31, 16: 40, 20: 50, 15: 41, 17: 47, 18: 50, 19: 53, 21: 59}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 54
+	runtime: 23.603140354156494 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 7: 6, 8: 11, 4: 7, 5: 16, 9: 14, 10: 23, 6: 7, 2: 16, 12: 21, 20: 23, 16: 32, 11: 21, 14: 30, 13: 38, 15: 46, 19: 40, 17: 49, 18: 52, 21: 54}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc1.5_n20_m20_00.dzn
+
+iterations: 5
+total time seconds: 291
+total time minutes: 4.85
+total time hours: 0.08083333333333333
+instance_min_t: 44
+instance_max_t: 109
+
+t_best 54
+runtime_of_best_iteration: 23.603140354156494
+iteration_best_solution: 4
+
+avg_t 58.2
+std_t:  2.4899799195977463
+
+avg_runtime 24.551610946655273
+std_runtime: 3.1990353791056156
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 52
+	runtime: 48.28299903869629 seconds 
+	schedule: {0: 0, 1: 0, 4: 7, 2: 0, 5: 14, 6: 7, 11: 19, 9: 14, 3: 14, 7: 28, 12: 21, 13: 28, 8: 33, 15: 38, 14: 28, 20: 40, 10: 37, 17: 41, 16: 41, 18: 47, 19: 46, 21: 52}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 55
+	runtime: 44.60077929496765 seconds 
+	schedule: {0: 0, 1: 0, 6: 7, 2: 0, 4: 7, 9: 14, 10: 14, 16: 17, 3: 22, 5: 22, 7: 29, 8: 34, 12: 28, 11: 30, 20: 40, 13: 39, 15: 47, 17: 50, 18: 53, 14: 39, 19: 49, 21: 55}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 51
+	runtime: 42.3589608669281 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 7: 6, 8: 11, 1: 0, 4: 11, 10: 18, 16: 24, 6: 7, 5: 18, 9: 23, 11: 23, 14: 32, 12: 30, 19: 41, 13: 32, 20: 41, 15: 40, 17: 44, 18: 48, 21: 51}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 47
+	runtime: 43.08648657798767 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 1: 0, 7: 6, 8: 11, 6: 7, 4: 7, 5: 16, 12: 21, 9: 14, 10: 14, 16: 24, 20: 23, 11: 21, 13: 31, 14: 30, 15: 39, 17: 42, 18: 45, 19: 39, 21: 47}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 50
+	runtime: 35.813037633895874 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 6: 7, 7: 6, 4: 7, 2: 0, 9: 14, 8: 11, 10: 14, 16: 17, 5: 17, 12: 22, 20: 25, 11: 24, 14: 34, 19: 43, 13: 34, 15: 42, 17: 45, 18: 48, 21: 50}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc1.5_n20_m20_00.dzn
+
+iterations: 5
+total time seconds: 255
+total time minutes: 4.25
+total time hours: 0.07083333333333333
+instance_min_t: 44
+instance_max_t: 109
+
+t_best 47
+runtime_of_best_iteration: 43.08648657798767
+iteration_best_solution: 3
+
+avg_t 51
+std_t:  2.9154759474226504
+
+avg_runtime 42.82845268249512
+std_runtime: 4.53861955701968
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 58
+	runtime: 37.85387468338013 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 4: 7, 2: 0, 9: 14, 5: 14, 11: 19, 13: 28, 14: 28, 6: 7, 15: 36, 10: 21, 7: 37, 12: 37, 17: 39, 18: 42, 8: 44, 16: 46, 19: 52, 20: 49, 21: 58}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 48
+	runtime: 35.850077390670776 seconds 
+	schedule: {0: 0, 1: 0, 6: 7, 3: 0, 7: 6, 4: 7, 9: 14, 10: 14, 5: 14, 2: 11, 11: 19, 16: 21, 13: 29, 14: 28, 8: 28, 12: 35, 19: 38, 15: 38, 20: 37, 17: 41, 18: 46, 21: 48}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 53
+	runtime: 32.56900334358215 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 2: 0, 6: 7, 4: 7, 10: 14, 7: 14, 5: 14, 11: 19, 16: 19, 14: 28, 8: 19, 12: 28, 19: 38, 20: 38, 9: 30, 13: 37, 15: 45, 17: 48, 18: 51, 21: 53}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 55
+	runtime: 33.275962591171265 seconds 
+	schedule: {0: 0, 1: 0, 6: 7, 4: 7, 10: 14, 16: 17, 9: 14, 5: 21, 2: 14, 3: 22, 12: 26, 7: 28, 11: 29, 8: 33, 14: 38, 19: 47, 20: 38, 13: 38, 15: 47, 17: 50, 18: 53, 21: 55}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 44
+	instance max_t: 109
+	our best solution t: 52
+	runtime: 30.34103560447693 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 7: 6, 1: 0, 4: 7, 8: 11, 10: 14, 16: 17, 9: 16, 5: 17, 6: 16, 12: 23, 11: 23, 13: 33, 14: 32, 20: 42, 19: 41, 15: 43, 17: 47, 18: 50, 21: 52}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc1.5_n20_m20_00.dzn
+
+iterations: 5
+total time seconds: 266
+total time minutes: 4.433333333333334
+total time hours: 0.07388888888888889
+instance_min_t: 44
+instance_max_t: 109
+
+t_best 48
+runtime_of_best_iteration: 35.850077390670776
+iteration_best_solution: 1
+
+avg_t 53.2
+std_t:  3.7013511046643495
+
+avg_runtime 33.97799072265625
+std_runtime: 2.9254365671208586
+
+#################################################################################
+
+These are the results of the instance: ../instances/inst_set1a_sf1_nc1.8_n20_m20_00.dzn
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 76
+	runtime: 11.673530340194702 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 5: 8, 3: 0, 9: 10, 7: 10, 10: 21, 12: 21, 4: 30, 13: 21, 6: 39, 11: 47, 8: 53, 14: 46, 15: 50, 17: 61, 19: 64, 16: 63, 18: 73, 20: 73, 21: 76}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 70
+	runtime: 18.23700213432312 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 9: 10, 1: 0, 7: 10, 10: 20, 15: 28, 12: 28, 17: 39, 4: 39, 14: 43, 5: 37, 19: 57, 6: 49, 8: 48, 11: 62, 16: 57, 13: 56, 20: 67, 18: 67, 21: 70}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 64
+	runtime: 13.228949069976807 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 1: 0, 5: 8, 7: 10, 8: 19, 9: 10, 12: 27, 13: 20, 4: 9, 10: 30, 15: 39, 6: 23, 17: 49, 14: 39, 19: 52, 11: 37, 16: 50, 20: 61, 18: 61, 21: 64}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 78
+	runtime: 17.162633895874023 seconds 
+	schedule: {0: 0, 3: 0, 7: 10, 2: 0, 4: 3, 9: 10, 10: 19, 1: 27, 14: 35, 15: 41, 6: 12, 5: 39, 12: 52, 8: 42, 16: 51, 17: 61, 19: 63, 11: 50, 13: 66, 20: 72, 18: 75, 21: 78}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 68
+	runtime: 16.25399422645569 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 14: 8, 3: 0, 5: 12, 4: 3, 6: 12, 12: 13, 9: 22, 11: 19, 7: 19, 10: 28, 13: 37, 15: 42, 8: 34, 16: 52, 17: 52, 18: 65, 19: 55, 20: 62, 21: 68}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc1.8_n20_m20_00.dzn
+
+iterations: 5
+total time seconds: 356
+total time minutes: 5.933333333333334
+total time hours: 0.09888888888888889
+instance_min_t: 50
+instance_max_t: 128
+
+t_best 64
+runtime_of_best_iteration: 13.228949069976807
+iteration_best_solution: 2
+
+avg_t 71.2
+std_t:  5.761944116355173
+
+avg_runtime 15.311221933364868
+std_runtime: 2.758867341885264
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 68
+	runtime: 26.787599086761475 seconds 
+	schedule: {0: 0, 1: 0, 14: 8, 12: 8, 5: 12, 2: 13, 4: 16, 3: 16, 7: 26, 10: 36, 9: 26, 6: 27, 15: 44, 11: 35, 8: 39, 13: 50, 16: 54, 18: 64, 17: 54, 19: 56, 20: 65, 21: 68}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 66
+	runtime: 24.958967685699463 seconds 
+	schedule: {0: 0, 2: 0, 4: 3, 3: 0, 9: 10, 7: 10, 6: 21, 10: 19, 15: 28, 1: 27, 5: 35, 13: 40, 8: 36, 11: 38, 12: 35, 14: 46, 16: 44, 17: 50, 18: 54, 19: 57, 20: 59, 21: 66}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 59
+	runtime: 24.674036502838135 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 9: 10, 1: 12, 7: 10, 4: 3, 14: 20, 10: 24, 5: 20, 6: 12, 11: 22, 8: 24, 13: 32, 12: 36, 15: 32, 17: 45, 19: 47, 16: 42, 18: 56, 20: 56, 21: 59}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 66
+	runtime: 27.584940195083618 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 9: 10, 7: 10, 10: 19, 2: 29, 15: 27, 5: 20, 14: 38, 4: 37, 8: 21, 13: 34, 16: 37, 6: 48, 12: 46, 17: 55, 11: 60, 18: 57, 19: 57, 20: 63, 21: 66}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 67
+	runtime: 22.06603479385376 seconds 
+	schedule: {0: 0, 1: 0, 14: 8, 2: 0, 12: 8, 4: 17, 3: 12, 6: 26, 9: 22, 7: 22, 10: 34, 15: 42, 5: 8, 17: 52, 13: 34, 19: 55, 11: 42, 8: 37, 16: 52, 20: 64, 18: 64, 21: 67}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc1.8_n20_m20_00.dzn
+
+iterations: 5
+total time seconds: 326
+total time minutes: 5.433333333333334
+total time hours: 0.09055555555555556
+instance_min_t: 50
+instance_max_t: 128
+
+t_best 59
+runtime_of_best_iteration: 24.674036502838135
+iteration_best_solution: 2
+
+avg_t 65.2
+std_t:  3.5637059362410923
+
+avg_runtime 25.21431565284729
+std_runtime: 2.142653611473877
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 70
+	runtime: 18.73499894142151 seconds 
+	schedule: {0: 0, 2: 0, 4: 3, 1: 0, 3: 0, 7: 10, 6: 12, 14: 12, 9: 19, 12: 19, 5: 16, 10: 29, 11: 27, 15: 39, 8: 19, 13: 29, 17: 51, 19: 53, 16: 49, 18: 67, 20: 64, 21: 70}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 62
+	runtime: 16.754820585250854 seconds 
+	schedule: {0: 0, 1: 0, 14: 8, 2: 12, 4: 15, 5: 20, 3: 0, 12: 24, 9: 10, 6: 26, 11: 33, 7: 10, 10: 19, 13: 22, 15: 33, 17: 43, 19: 45, 8: 37, 16: 45, 18: 58, 20: 55, 21: 62}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 78
+	runtime: 16.54599905014038 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 7: 10, 1: 0, 5: 10, 8: 19, 4: 8, 14: 11, 6: 17, 10: 27, 12: 29, 9: 36, 15: 46, 17: 57, 13: 46, 16: 56, 11: 24, 20: 66, 19: 69, 18: 66, 21: 78}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 74
+	runtime: 16.793001890182495 seconds 
+	schedule: {0: 0, 1: 0, 12: 8, 5: 12, 2: 0, 14: 8, 3: 12, 4: 3, 7: 22, 10: 31, 6: 13, 8: 31, 9: 39, 11: 41, 15: 50, 17: 60, 13: 55, 19: 62, 16: 60, 20: 71, 18: 71, 21: 74}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 63
+	runtime: 18.839963674545288 seconds 
+	schedule: {0: 0, 3: 0, 9: 10, 1: 0, 12: 9, 5: 8, 14: 19, 7: 10, 2: 23, 4: 27, 10: 21, 13: 27, 6: 36, 8: 30, 11: 44, 15: 38, 17: 48, 16: 50, 19: 50, 20: 60, 18: 60, 21: 63}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc1.8_n20_m20_00.dzn
+
+iterations: 5
+total time seconds: 347
+total time minutes: 5.783333333333333
+total time hours: 0.09638888888888889
+instance_min_t: 50
+instance_max_t: 128
+
+t_best 62
+runtime_of_best_iteration: 16.754820585250854
+iteration_best_solution: 1
+
+avg_t 69.4
+std_t:  6.913754406977442
+
+avg_runtime 17.533756828308107
+std_runtime: 1.1489434186362815
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 73
+	runtime: 24.50598406791687 seconds 
+	schedule: {0: 0, 2: 0, 4: 3, 1: 0, 3: 8, 14: 12, 7: 18, 6: 12, 10: 27, 9: 35, 5: 19, 13: 45, 11: 20, 15: 45, 8: 36, 12: 50, 17: 60, 16: 55, 19: 62, 20: 66, 18: 66, 21: 73}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 57
+	runtime: 25.765000343322754 seconds 
+	schedule: {0: 0, 3: 0, 9: 10, 1: 0, 12: 9, 5: 8, 14: 21, 2: 18, 7: 10, 10: 25, 15: 33, 8: 25, 4: 34, 17: 43, 16: 43, 19: 45, 13: 22, 6: 43, 11: 51, 18: 53, 20: 54, 21: 57}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 67
+	runtime: 22.983996868133545 seconds 
+	schedule: {0: 0, 2: 0, 4: 3, 6: 12, 3: 0, 1: 3, 14: 11, 9: 19, 5: 24, 12: 25, 7: 15, 13: 30, 10: 34, 15: 42, 17: 52, 19: 54, 8: 34, 11: 54, 16: 52, 20: 63, 18: 64, 21: 67}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 61
+	runtime: 21.18300175666809 seconds 
+	schedule: {0: 0, 2: 0, 4: 3, 1: 0, 3: 0, 9: 10, 14: 20, 7: 10, 12: 19, 6: 12, 10: 28, 15: 36, 17: 46, 5: 24, 13: 32, 19: 49, 11: 25, 8: 28, 16: 48, 20: 58, 18: 58, 21: 61}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 65
+	runtime: 19.373001098632812 seconds 
+	schedule: {0: 0, 1: 0, 14: 8, 3: 0, 2: 10, 5: 8, 7: 10, 4: 13, 6: 22, 10: 19, 11: 29, 12: 28, 9: 31, 15: 41, 8: 32, 13: 45, 16: 51, 18: 61, 17: 51, 19: 53, 20: 62, 21: 65}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc1.8_n20_m20_00.dzn
+
+iterations: 5
+total time seconds: 323
+total time minutes: 5.383333333333334
+total time hours: 0.08972222222222223
+instance_min_t: 50
+instance_max_t: 128
+
+t_best 57
+runtime_of_best_iteration: 25.765000343322754
+iteration_best_solution: 1
+
+avg_t 64.6
+std_t:  6.066300355241241
+
+avg_runtime 22.762196826934815
+std_runtime: 2.553787526049035
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 55
+	runtime: 43.03008198738098 seconds 
+	schedule: {0: 0, 1: 0, 5: 8, 3: 0, 12: 13, 2: 8, 14: 9, 9: 11, 4: 22, 7: 10, 13: 24, 8: 21, 6: 31, 10: 22, 11: 38, 15: 30, 16: 40, 18: 52, 17: 40, 20: 52, 19: 43, 21: 55}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 54
+	runtime: 44.03376317024231 seconds 
+	schedule: {0: 0, 1: 0, 5: 8, 14: 8, 3: 0, 2: 10, 7: 10, 4: 13, 9: 12, 10: 22, 6: 23, 15: 30, 8: 22, 12: 31, 11: 34, 13: 30, 16: 40, 18: 50, 17: 40, 19: 42, 20: 51, 21: 54}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 65
+	runtime: 45.67701435089111 seconds 
+	schedule: {0: 0, 3: 0, 7: 10, 10: 19, 2: 0, 9: 10, 1: 27, 12: 35, 5: 35, 8: 44, 15: 27, 14: 37, 17: 48, 4: 3, 6: 46, 19: 53, 16: 52, 11: 54, 13: 42, 18: 62, 20: 62, 21: 65}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 58
+	runtime: 42.8569552898407 seconds 
+	schedule: {0: 0, 3: 0, 9: 10, 1: 0, 14: 8, 12: 12, 5: 19, 7: 10, 10: 21, 2: 21, 15: 33, 8: 21, 13: 29, 16: 45, 17: 43, 4: 29, 6: 38, 11: 46, 18: 55, 19: 46, 20: 55, 21: 58}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 64
+	runtime: 41.63635468482971 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 4: 3, 14: 8, 12: 12, 3: 12, 5: 8, 6: 12, 11: 19, 9: 22, 7: 22, 8: 32, 10: 32, 15: 40, 17: 50, 13: 33, 19: 52, 16: 50, 18: 61, 20: 61, 21: 64}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc1.8_n20_m20_00.dzn
+
+iterations: 5
+total time seconds: 296
+total time minutes: 4.933333333333334
+total time hours: 0.08222222222222222
+instance_min_t: 50
+instance_max_t: 128
+
+t_best 54
+runtime_of_best_iteration: 44.03376317024231
+iteration_best_solution: 1
+
+avg_t 59.2
+std_t:  5.06951674225463
+
+avg_runtime 43.44683389663696
+std_runtime: 1.509773553530691
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 63
+	runtime: 40.56445932388306 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 9: 10, 2: 0, 4: 3, 14: 20, 7: 10, 10: 24, 5: 12, 12: 32, 15: 32, 13: 20, 17: 45, 8: 42, 19: 47, 6: 13, 11: 23, 16: 50, 20: 60, 18: 60, 21: 63}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 54
+	runtime: 43.59206557273865 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 9: 10, 12: 20, 14: 8, 2: 29, 7: 10, 5: 8, 10: 19, 13: 33, 8: 28, 4: 32, 15: 27, 16: 39, 17: 37, 6: 41, 18: 51, 19: 41, 11: 49, 20: 51, 21: 54}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 55
+	runtime: 37.963029623031616 seconds 
+	schedule: {0: 0, 2: 0, 4: 3, 3: 0, 9: 10, 7: 10, 10: 21, 1: 12, 6: 12, 14: 20, 5: 24, 12: 25, 11: 27, 15: 30, 8: 34, 16: 42, 13: 27, 18: 52, 17: 41, 20: 52, 19: 43, 21: 55}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 63
+	runtime: 34.45796847343445 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 3: 0, 12: 8, 14: 17, 7: 10, 9: 21, 5: 8, 8: 19, 4: 22, 6: 31, 10: 31, 15: 39, 16: 50, 11: 41, 17: 49, 19: 51, 13: 32, 20: 60, 18: 60, 21: 63}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 50
+	instance max_t: 128
+	our best solution t: 54
+	runtime: 36.60103964805603 seconds 
+	schedule: {0: 0, 1: 0, 12: 8, 3: 0, 9: 10, 2: 17, 4: 20, 6: 29, 7: 10, 14: 20, 10: 20, 15: 30, 17: 40, 5: 28, 11: 37, 8: 29, 16: 40, 13: 29, 19: 42, 20: 51, 18: 51, 21: 54}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc1.8_n20_m20_00.dzn
+
+iterations: 5
+total time seconds: 289
+total time minutes: 4.816666666666666
+total time hours: 0.08027777777777777
+instance_min_t: 50
+instance_max_t: 128
+
+t_best 54
+runtime_of_best_iteration: 36.60103964805603
+iteration_best_solution: 4
+
+avg_t 57.8
+std_t:  4.764451699828638
+
+avg_runtime 38.63571252822876
+std_runtime: 3.5472327634084437
+
+#################################################################################
+
+These are the results of the instance: ../instances/inst_set1a_sf1_nc2.1_n20_m20_02.dzn
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 75
+	runtime: 20.45831823348999 seconds 
+	schedule: {0: 0, 3: 0, 11: 7, 4: 7, 2: 11, 1: 0, 5: 12, 9: 20, 7: 20, 10: 29, 13: 42, 6: 24, 12: 39, 8: 30, 14: 43, 16: 53, 15: 50, 17: 51, 19: 61, 18: 67, 20: 58, 21: 75}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 72
+	runtime: 14.654034614562988 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 11: 7, 4: 7, 2: 3, 6: 13, 5: 11, 7: 19, 8: 23, 9: 19, 16: 30, 15: 30, 10: 31, 14: 43, 12: 41, 19: 50, 13: 56, 17: 51, 18: 56, 20: 69, 21: 72}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 75
+	runtime: 17.59000253677368 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 11: 7, 4: 7, 2: 11, 5: 13, 10: 21, 6: 31, 7: 22, 9: 26, 13: 46, 16: 43, 14: 47, 8: 36, 15: 54, 20: 57, 17: 60, 12: 36, 19: 61, 18: 67, 21: 75}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 66
+	runtime: 19.687974214553833 seconds 
+	schedule: {0: 0, 2: 0, 5: 1, 10: 9, 6: 19, 1: 9, 12: 24, 3: 26, 4: 33, 9: 19, 16: 33, 11: 37, 7: 41, 8: 45, 13: 41, 14: 45, 15: 52, 19: 53, 17: 53, 20: 62, 18: 58, 21: 66}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 67
+	runtime: 18.101022243499756 seconds 
+	schedule: {0: 0, 3: 0, 4: 7, 2: 0, 11: 10, 5: 13, 1: 5, 6: 14, 7: 21, 10: 25, 12: 36, 8: 26, 14: 35, 19: 42, 15: 50, 9: 36, 13: 49, 17: 51, 16: 51, 18: 59, 20: 60, 21: 67}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc2.1_n20_m20_02.dzn
+
+iterations: 5
+total time seconds: 355
+total time minutes: 5.916666666666667
+total time hours: 0.09861111111111112
+instance_min_t: 39
+instance_max_t: 110
+
+t_best 66
+runtime_of_best_iteration: 19.687974214553833
+iteration_best_solution: 3
+
+avg_t 71
+std_t:  4.301162633521313
+
+avg_runtime 18.09827036857605
+std_runtime: 2.2482264083875094
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 63
+	runtime: 31.22502613067627 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 4: 7, 11: 7, 5: 13, 10: 21, 6: 13, 1: 0, 7: 31, 14: 36, 9: 22, 16: 35, 13: 39, 12: 33, 8: 39, 19: 43, 15: 49, 17: 50, 18: 55, 20: 52, 21: 63}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 52
+	runtime: 25.95798897743225 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 11: 7, 4: 7, 2: 0, 5: 11, 7: 19, 6: 1, 8: 23, 9: 24, 15: 30, 16: 33, 10: 19, 12: 31, 13: 33, 14: 31, 17: 38, 18: 44, 19: 38, 20: 49, 21: 52}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 57
+	runtime: 25.716012954711914 seconds 
+	schedule: {0: 0, 2: 0, 6: 1, 3: 0, 4: 7, 11: 13, 5: 7, 10: 15, 1: 1, 9: 17, 16: 27, 13: 27, 14: 25, 7: 32, 8: 36, 12: 25, 15: 43, 19: 37, 20: 44, 17: 44, 18: 49, 21: 57}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 60
+	runtime: 32.80796980857849 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 5: 1, 9: 9, 6: 18, 10: 9, 3: 9, 11: 19, 4: 23, 14: 23, 7: 29, 16: 31, 8: 33, 12: 23, 19: 33, 15: 41, 17: 44, 13: 39, 20: 49, 18: 52, 21: 60}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 74
+	runtime: 27.308237314224243 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 6: 1, 3: 0, 4: 7, 11: 7, 5: 11, 9: 19, 7: 19, 16: 28, 8: 24, 15: 32, 10: 33, 14: 48, 12: 43, 13: 46, 20: 56, 17: 55, 19: 68, 18: 60, 21: 74}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc2.1_n20_m20_02.dzn
+
+iterations: 5
+total time seconds: 306
+total time minutes: 5.1
+total time hours: 0.08499999999999999
+instance_min_t: 39
+instance_max_t: 110
+
+t_best 52
+runtime_of_best_iteration: 25.95798897743225
+iteration_best_solution: 1
+
+avg_t 61.2
+std_t:  8.228000972289685
+
+avg_runtime 28.603047037124632
+std_runtime: 3.223506632209197
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 65
+	runtime: 23.39700174331665 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 4: 7, 2: 3, 5: 7, 6: 13, 9: 15, 10: 18, 12: 28, 13: 30, 16: 24, 7: 28, 8: 32, 11: 32, 14: 40, 15: 47, 20: 56, 19: 48, 17: 50, 18: 57, 21: 65}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 61
+	runtime: 20.42800235748291 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 5: 1, 9: 9, 3: 0, 16: 18, 10: 18, 11: 7, 4: 22, 7: 28, 6: 32, 13: 28, 8: 38, 15: 46, 12: 39, 14: 38, 19: 49, 17: 47, 18: 53, 20: 55, 21: 61}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 57
+	runtime: 22.755032300949097 seconds 
+	schedule: {0: 0, 3: 0, 4: 7, 2: 0, 5: 1, 6: 13, 1: 13, 10: 9, 7: 24, 12: 22, 9: 18, 8: 31, 13: 27, 16: 28, 11: 18, 14: 32, 19: 43, 15: 42, 20: 51, 17: 44, 18: 49, 21: 57}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 65
+	runtime: 22.12961769104004 seconds 
+	schedule: {0: 0, 3: 0, 11: 7, 1: 0, 4: 7, 2: 0, 5: 11, 9: 19, 10: 19, 16: 30, 6: 29, 13: 29, 7: 34, 14: 41, 8: 41, 12: 39, 19: 48, 15: 48, 17: 51, 20: 54, 18: 57, 21: 65}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 68
+	runtime: 24.16508674621582 seconds 
+	schedule: {0: 0, 3: 0, 11: 7, 1: 0, 4: 7, 2: 11, 6: 12, 5: 13, 7: 21, 10: 21, 8: 25, 15: 39, 9: 31, 12: 37, 16: 40, 13: 40, 20: 51, 14: 44, 17: 54, 19: 54, 18: 60, 21: 68}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc2.1_n20_m20_02.dzn
+
+iterations: 5
+total time seconds: 316
+total time minutes: 5.266666666666667
+total time hours: 0.08777777777777777
+instance_min_t: 39
+instance_max_t: 110
+
+t_best 57
+runtime_of_best_iteration: 22.755032300949097
+iteration_best_solution: 2
+
+avg_t 63.2
+std_t:  4.266145801540309
+
+avg_runtime 22.574948167800905
+std_runtime: 1.4181359790731825
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 61
+	runtime: 43.53956413269043 seconds 
+	schedule: {0: 0, 2: 0, 6: 1, 3: 0, 1: 0, 11: 7, 5: 6, 4: 11, 10: 14, 12: 24, 9: 17, 14: 27, 7: 27, 8: 35, 13: 28, 15: 42, 17: 44, 16: 43, 19: 47, 18: 53, 20: 50, 21: 61}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 61
+	runtime: 34.29918169975281 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 2: 3, 4: 7, 5: 7, 7: 15, 6: 19, 8: 24, 9: 15, 10: 19, 11: 29, 16: 40, 12: 31, 13: 29, 14: 33, 15: 40, 19: 44, 17: 45, 18: 53, 20: 50, 21: 61}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 67
+	runtime: 26.334967613220215 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 11: 7, 2: 0, 6: 11, 4: 7, 5: 13, 7: 22, 9: 21, 10: 21, 16: 31, 8: 34, 13: 35, 12: 31, 14: 46, 15: 45, 19: 53, 17: 53, 18: 59, 20: 59, 21: 67}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 60
+	runtime: 26.441038608551025 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 4: 7, 5: 11, 6: 1, 11: 7, 1: 13, 9: 19, 7: 19, 10: 23, 12: 33, 14: 33, 16: 40, 13: 33, 19: 44, 8: 35, 15: 43, 20: 54, 17: 44, 18: 51, 21: 60}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 64
+	runtime: 28.75373387336731 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 4: 7, 2: 0, 5: 3, 7: 13, 11: 11, 8: 17, 10: 15, 6: 25, 9: 27, 13: 36, 14: 30, 12: 31, 16: 37, 15: 41, 17: 42, 20: 47, 19: 50, 18: 56, 21: 64}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc2.1_n20_m20_02.dzn
+
+iterations: 5
+total time seconds: 313
+total time minutes: 5.216666666666667
+total time hours: 0.08694444444444445
+instance_min_t: 39
+instance_max_t: 110
+
+t_best 60
+runtime_of_best_iteration: 26.441038608551025
+iteration_best_solution: 3
+
+avg_t 62.6
+std_t:  2.8809720581775866
+
+avg_runtime 31.873697185516356
+std_runtime: 7.278408176174723
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 52
+	runtime: 49.78442406654358 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 6: 1, 5: 6, 4: 14, 11: 7, 10: 14, 1: 1, 7: 20, 8: 24, 15: 33, 9: 24, 14: 31, 17: 38, 12: 25, 16: 34, 19: 38, 13: 34, 18: 44, 20: 44, 21: 52}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 50
+	runtime: 42.74739980697632 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 6: 1, 1: 0, 11: 7, 5: 1, 10: 11, 12: 22, 14: 22, 9: 13, 16: 32, 4: 7, 7: 24, 8: 29, 15: 36, 13: 22, 19: 36, 17: 37, 18: 42, 20: 47, 21: 50}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 54
+	runtime: 46.011993646621704 seconds 
+	schedule: {0: 0, 3: 0, 11: 7, 4: 7, 2: 0, 6: 13, 5: 11, 10: 19, 14: 29, 1: 11, 9: 23, 12: 30, 7: 19, 8: 32, 19: 40, 15: 39, 13: 32, 16: 42, 17: 41, 20: 50, 18: 46, 21: 54}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 53
+	runtime: 44.15354800224304 seconds 
+	schedule: {0: 0, 3: 0, 4: 7, 1: 0, 2: 0, 11: 7, 6: 1, 5: 6, 10: 15, 7: 15, 12: 26, 9: 25, 13: 34, 8: 19, 16: 34, 14: 28, 15: 35, 20: 47, 17: 38, 18: 45, 19: 38, 21: 53}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 61
+	runtime: 51.32957434654236 seconds 
+	schedule: {0: 0, 3: 0, 11: 7, 2: 0, 1: 0, 4: 7, 5: 11, 9: 19, 10: 19, 16: 28, 6: 29, 14: 36, 7: 33, 8: 37, 13: 34, 15: 44, 12: 38, 20: 50, 19: 44, 17: 45, 18: 53, 21: 61}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc2.1_n20_m20_02.dzn
+
+iterations: 5
+total time seconds: 270
+total time minutes: 4.5
+total time hours: 0.075
+instance_min_t: 39
+instance_max_t: 110
+
+t_best 50
+runtime_of_best_iteration: 42.74739980697632
+iteration_best_solution: 1
+
+avg_t 54
+std_t:  4.183300132670378
+
+avg_runtime 46.8053879737854
+std_runtime: 3.656224696746752
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 55
+	runtime: 32.80306386947632 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 11: 7, 2: 0, 4: 7, 5: 3, 7: 13, 9: 13, 16: 22, 10: 17, 6: 27, 12: 32, 14: 33, 8: 34, 19: 40, 13: 27, 15: 41, 20: 48, 17: 42, 18: 47, 21: 55}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 57
+	runtime: 29.89696168899536 seconds 
+	schedule: {0: 0, 2: 0, 6: 1, 3: 0, 11: 7, 1: 0, 5: 6, 4: 7, 9: 14, 16: 23, 7: 14, 8: 18, 15: 26, 10: 27, 12: 37, 13: 37, 14: 37, 17: 44, 19: 47, 18: 49, 20: 53, 21: 57}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 62
+	runtime: 36.19824457168579 seconds 
+	schedule: {0: 0, 3: 0, 4: 7, 1: 0, 11: 7, 2: 0, 6: 11, 5: 13, 10: 21, 7: 21, 8: 26, 9: 25, 15: 38, 13: 35, 16: 40, 12: 31, 20: 45, 14: 31, 17: 39, 18: 48, 19: 56, 21: 62}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 62
+	runtime: 27.681917190551758 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 6: 1, 3: 0, 4: 7, 5: 13, 10: 21, 11: 26, 14: 31, 7: 22, 12: 33, 19: 38, 8: 41, 9: 32, 15: 48, 16: 44, 17: 49, 18: 54, 13: 46, 20: 57, 21: 62}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 39
+	instance max_t: 110
+	our best solution t: 61
+	runtime: 28.83499813079834 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 5: 1, 10: 9, 9: 9, 6: 18, 12: 23, 3: 1, 16: 23, 11: 9, 14: 27, 4: 23, 7: 35, 13: 29, 19: 40, 8: 40, 15: 47, 17: 48, 18: 53, 20: 49, 21: 61}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc2.1_n20_m20_02.dzn
+
+iterations: 5
+total time seconds: 297
+total time minutes: 4.95
+total time hours: 0.0825
+instance_min_t: 39
+instance_max_t: 110
+
+t_best 55
+runtime_of_best_iteration: 32.80306386947632
+iteration_best_solution: 0
+
+avg_t 59.4
+std_t:  3.2093613071762426
+
+avg_runtime 31.083037090301513
+std_runtime: 3.433362429608531
+
+#################################################################################
+
+These are the results of the instance: ../instances/inst_set1a_sf1_nc2.1_n20_m30_00.dzn
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 59
+	runtime: 12.788962125778198 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 5: 10, 8: 11, 2: 0, 4: 11, 6: 11, 7: 14, 12: 19, 9: 16, 10: 26, 11: 26, 15: 25, 13: 32, 20: 33, 16: 34, 14: 33, 17: 40, 18: 50, 19: 52, 21: 59}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 58
+	runtime: 12.939000129699707 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 5: 10, 7: 10, 8: 11, 2: 0, 9: 11, 4: 11, 12: 11, 13: 17, 15: 17, 10: 21, 14: 18, 11: 21, 16: 26, 6: 18, 17: 32, 18: 46, 19: 42, 20: 48, 21: 58}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 50
+	runtime: 13.982002973556519 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 1: 0, 5: 10, 8: 11, 4: 10, 7: 11, 9: 12, 6: 12, 11: 23, 12: 12, 13: 18, 15: 20, 16: 22, 20: 30, 14: 19, 17: 30, 10: 40, 19: 45, 18: 41, 21: 50}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 61
+	runtime: 12.547034502029419 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 3: 0, 5: 10, 6: 11, 4: 10, 8: 13, 7: 10, 12: 11, 15: 17, 9: 18, 10: 28, 11: 28, 13: 35, 16: 36, 14: 37, 17: 42, 20: 44, 18: 52, 19: 55, 21: 61}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 53
+	runtime: 12.541000366210938 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 5: 10, 2: 0, 4: 10, 6: 11, 8: 11, 7: 13, 12: 14, 9: 14, 13: 21, 15: 20, 20: 31, 16: 24, 11: 24, 10: 42, 17: 33, 18: 44, 14: 47, 19: 48, 21: 53}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc2.1_n20_m30_00.dzn
+
+iterations: 5
+total time seconds: 281
+total time minutes: 4.683333333333334
+total time hours: 0.07805555555555556
+instance_min_t: 47
+instance_max_t: 110
+
+t_best 50
+runtime_of_best_iteration: 13.982002973556519
+iteration_best_solution: 2
+
+avg_t 56.2
+std_t:  4.54972526643093
+
+avg_runtime 12.959600019454957
+std_runtime: 0.5958786417209012
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 57
+	runtime: 19.01696228981018 seconds 
+	schedule: {0: 0, 3: 0, 1: 0, 5: 10, 7: 10, 2: 0, 9: 11, 4: 10, 6: 11, 10: 21, 12: 11, 13: 17, 15: 17, 20: 27, 8: 23, 11: 28, 16: 19, 14: 29, 17: 37, 19: 52, 18: 48, 21: 57}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 54
+	runtime: 22.023037433624268 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 3: 0, 4: 10, 5: 10, 8: 11, 7: 10, 9: 11, 12: 13, 6: 11, 11: 22, 15: 20, 13: 19, 20: 22, 10: 29, 14: 21, 16: 29, 17: 35, 19: 48, 18: 45, 21: 54}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 50
+	runtime: 20.69596242904663 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 1: 0, 5: 10, 7: 10, 8: 11, 4: 11, 12: 11, 13: 17, 15: 17, 9: 14, 16: 18, 6: 17, 11: 24, 14: 24, 10: 26, 17: 31, 18: 41, 20: 31, 19: 42, 21: 50}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 51
+	runtime: 21.413036584854126 seconds 
+	schedule: {0: 0, 3: 0, 7: 10, 2: 0, 1: 0, 5: 10, 8: 11, 12: 11, 4: 10, 9: 11, 11: 22, 10: 21, 6: 22, 15: 29, 13: 17, 14: 27, 16: 26, 20: 30, 17: 32, 19: 44, 18: 42, 21: 51}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 59
+	runtime: 20.839001655578613 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 5: 10, 6: 11, 7: 10, 12: 11, 9: 11, 4: 16, 13: 17, 8: 11, 15: 19, 1: 18, 14: 26, 20: 20, 10: 28, 16: 34, 11: 30, 17: 40, 18: 50, 19: 50, 21: 59}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc2.1_n20_m30_00.dzn
+
+iterations: 5
+total time seconds: 271
+total time minutes: 4.516666666666667
+total time hours: 0.07527777777777778
+instance_min_t: 47
+instance_max_t: 110
+
+t_best 50
+runtime_of_best_iteration: 20.69596242904663
+iteration_best_solution: 2
+
+avg_t 54.2
+std_t:  3.8340579025361627
+
+avg_runtime 20.797600078582764
+std_runtime: 1.125074891014872
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 200
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 57
+	runtime: 15.545023202896118 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 3: 0, 4: 10, 7: 10, 12: 11, 13: 17, 9: 11, 5: 17, 6: 18, 16: 18, 8: 18, 10: 26, 15: 18, 14: 24, 20: 27, 11: 31, 17: 38, 18: 48, 19: 48, 21: 57}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 64
+	runtime: 14.102001428604126 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 1: 0, 4: 10, 7: 10, 9: 11, 10: 21, 12: 11, 13: 17, 16: 32, 5: 26, 15: 29, 8: 27, 11: 32, 14: 32, 17: 39, 19: 49, 6: 33, 20: 54, 18: 51, 21: 64}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 53
+	runtime: 18.164963722229004 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 2: 0, 4: 10, 5: 10, 6: 11, 7: 10, 12: 11, 8: 11, 9: 16, 15: 19, 10: 26, 11: 26, 13: 17, 14: 32, 16: 26, 20: 33, 17: 33, 18: 43, 19: 44, 21: 53}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 59
+	runtime: 20.965996503829956 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 4: 10, 7: 10, 5: 11, 1: 13, 8: 12, 6: 12, 12: 12, 13: 18, 14: 22, 15: 18, 16: 21, 20: 34, 9: 11, 11: 28, 10: 29, 17: 35, 19: 54, 18: 45, 21: 59}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 47
+	runtime: 14.79300045967102 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 3: 0, 4: 11, 7: 10, 5: 10, 6: 11, 8: 11, 12: 14, 13: 20, 16: 22, 15: 21, 20: 22, 9: 11, 11: 21, 17: 28, 18: 38, 14: 28, 10: 32, 19: 38, 21: 47}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc2.1_n20_m30_00.dzn
+
+iterations: 5
+total time seconds: 280
+total time minutes: 4.666666666666667
+total time hours: 0.07777777777777778
+instance_min_t: 47
+instance_max_t: 110
+
+t_best 47
+runtime_of_best_iteration: 14.79300045967102
+iteration_best_solution: 4
+
+avg_t 56
+std_t:  6.4031242374328485
+
+avg_runtime 16.714197063446044
+std_runtime: 2.8312564490311667
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.1
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 55
+	runtime: 22.297003984451294 seconds 
+	schedule: {0: 0, 3: 0, 7: 10, 2: 0, 12: 11, 1: 0, 4: 10, 9: 11, 13: 17, 16: 18, 10: 22, 5: 13, 6: 17, 15: 27, 8: 24, 20: 33, 11: 29, 14: 29, 17: 36, 19: 46, 18: 46, 21: 55}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 55
+	runtime: 20.242963314056396 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 4: 10, 7: 10, 12: 11, 5: 10, 15: 17, 13: 17, 6: 11, 1: 0, 16: 18, 20: 19, 8: 24, 14: 29, 9: 11, 11: 29, 10: 31, 17: 36, 19: 50, 18: 46, 21: 55}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 48
+	runtime: 23.36803436279297 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 4: 10, 5: 10, 7: 10, 9: 11, 8: 11, 12: 11, 1: 0, 6: 11, 13: 17, 10: 22, 15: 17, 16: 18, 20: 27, 11: 21, 17: 29, 14: 18, 18: 39, 19: 39, 21: 48}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 56
+	runtime: 19.77500057220459 seconds 
+	schedule: {0: 0, 3: 0, 5: 10, 1: 0, 2: 0, 7: 10, 12: 11, 6: 11, 9: 11, 4: 10, 15: 17, 13: 17, 20: 19, 16: 18, 10: 31, 8: 24, 11: 30, 14: 30, 17: 37, 18: 47, 19: 47, 21: 56}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 52
+	runtime: 22.60603427886963 seconds 
+	schedule: {0: 0, 1: 0, 2: 0, 3: 0, 5: 10, 7: 10, 12: 11, 6: 11, 9: 11, 4: 11, 8: 17, 10: 21, 15: 17, 11: 26, 13: 18, 16: 22, 14: 24, 20: 22, 17: 33, 19: 46, 18: 43, 21: 52}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc2.1_n20_m30_00.dzn
+
+iterations: 5
+total time seconds: 266
+total time minutes: 4.433333333333334
+total time hours: 0.07388888888888889
+instance_min_t: 47
+instance_max_t: 110
+
+t_best 48
+runtime_of_best_iteration: 23.36803436279297
+iteration_best_solution: 2
+
+avg_t 53.2
+std_t:  3.2710854467592254
+
+avg_runtime 21.657807302474975
+std_runtime: 1.5635958629047708
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 1
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 48
+	runtime: 37.61300206184387 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 5: 10, 2: 0, 4: 10, 8: 11, 6: 11, 7: 11, 12: 12, 15: 18, 9: 12, 10: 22, 13: 18, 11: 22, 14: 19, 20: 29, 16: 19, 17: 29, 18: 39, 19: 40, 21: 48}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 50
+	runtime: 38.11899995803833 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 3: 0, 4: 10, 7: 10, 12: 11, 5: 11, 13: 17, 16: 18, 8: 12, 15: 17, 9: 11, 6: 19, 20: 31, 10: 22, 14: 18, 11: 24, 17: 31, 18: 41, 19: 42, 21: 50}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 51
+	runtime: 36.62199926376343 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 7: 10, 12: 11, 2: 0, 4: 10, 5: 10, 9: 11, 10: 23, 6: 16, 8: 11, 13: 17, 16: 19, 14: 18, 15: 17, 20: 30, 11: 25, 17: 32, 18: 42, 19: 44, 21: 51}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 50
+	runtime: 35.609997510910034 seconds 
+	schedule: {0: 0, 3: 0, 7: 10, 12: 11, 5: 10, 13: 17, 8: 11, 2: 8, 1: 0, 6: 11, 4: 11, 14: 18, 9: 11, 15: 19, 20: 25, 16: 18, 10: 25, 11: 24, 17: 31, 18: 41, 19: 41, 21: 50}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 52
+	runtime: 33.90400147438049 seconds 
+	schedule: {0: 0, 3: 0, 2: 0, 7: 10, 12: 11, 9: 11, 13: 17, 5: 10, 6: 11, 1: 0, 4: 10, 16: 18, 10: 21, 15: 17, 20: 19, 8: 11, 14: 18, 11: 26, 17: 33, 19: 45, 18: 43, 21: 52}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc2.1_n20_m30_00.dzn
+
+iterations: 5
+total time seconds: 251
+total time minutes: 4.183333333333334
+total time hours: 0.06972222222222223
+instance_min_t: 47
+instance_max_t: 110
+
+t_best 48
+runtime_of_best_iteration: 37.61300206184387
+iteration_best_solution: 0
+
+avg_t 50.2
+std_t:  1.4832396974191324
+
+avg_runtime 36.37360005378723
+std_runtime: 1.6827244514289674
+
+#################################################################################
+
+Parameter we used: 
+	t_stop: 0.1
+	t_initial: 0.5
+	termination condition: 400
+	t value change: 0.05
+
+This is the run #0
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 53
+	runtime: 26.099995851516724 seconds 
+	schedule: {0: 0, 2: 0, 3: 0, 4: 10, 5: 10, 6: 11, 1: 0, 8: 11, 7: 13, 12: 14, 15: 20, 13: 20, 16: 21, 20: 22, 14: 22, 9: 14, 10: 25, 11: 27, 17: 34, 19: 44, 18: 44, 21: 53}
+This is the run #1
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 52
+	runtime: 27.294000148773193 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 7: 10, 2: 0, 9: 11, 5: 10, 4: 10, 12: 11, 10: 21, 6: 13, 13: 17, 15: 17, 16: 27, 20: 22, 8: 18, 11: 26, 17: 33, 14: 23, 18: 43, 19: 47, 21: 52}
+This is the run #2
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 57
+	runtime: 25.67703914642334 seconds 
+	schedule: {0: 0, 2: 0, 1: 0, 3: 0, 7: 10, 9: 11, 5: 10, 12: 11, 13: 17, 4: 10, 15: 17, 10: 21, 16: 19, 6: 11, 20: 19, 8: 26, 11: 31, 17: 38, 14: 32, 19: 49, 18: 48, 21: 57}
+This is the run #3
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 50
+	runtime: 27.754961013793945 seconds 
+	schedule: {0: 0, 3: 0, 7: 10, 5: 10, 1: 0, 12: 11, 13: 17, 2: 11, 4: 14, 6: 14, 9: 14, 8: 18, 14: 23, 10: 24, 11: 24, 15: 17, 20: 31, 16: 25, 17: 31, 19: 41, 18: 41, 21: 50}
+This is the run #4
+
+Solutions we got: 
+	instance min_t: 47
+	instance max_t: 110
+	our best solution t: 50
+	runtime: 27.22600293159485 seconds 
+	schedule: {0: 0, 1: 0, 3: 0, 7: 10, 5: 10, 8: 11, 2: 0, 6: 11, 4: 10, 12: 11, 9: 11, 13: 17, 14: 18, 10: 23, 15: 17, 16: 18, 11: 24, 17: 31, 18: 41, 20: 21, 19: 42, 21: 50}
+
+
+ Statistical evaluation of the file../instances/inst_set1a_sf1_nc2.1_n20_m30_00.dzn
+
+iterations: 5
+total time seconds: 262
+total time minutes: 4.366666666666666
+total time hours: 0.07277777777777777
+instance_min_t: 47
+instance_max_t: 110
+
+t_best 50
+runtime_of_best_iteration: 27.22600293159485
+iteration_best_solution: 4
+
+avg_t 52.4
+std_t:  2.8809720581775866
+
+avg_runtime 26.81039981842041
+std_runtime: 0.8786312207099792
+
+#################################################################################
+
